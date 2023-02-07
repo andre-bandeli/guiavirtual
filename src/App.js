@@ -1,4 +1,5 @@
 import './App.css';
+import ApresentacaoPesquisa from './home/apresentacaoPesquisa/ApresentacaoPesquisa';
 import InicialCards from './home/cards/InicialCards';
 import Header from './home/header/Header';
 import Navbar from './navbar/Navbar';
@@ -13,6 +14,7 @@ function App() {
         <Header/>
       </header>
       <InicialCards/>
+      <ApresentacaoPesquisa/>
     </div>
   );
 }

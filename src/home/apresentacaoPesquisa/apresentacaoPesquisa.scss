@@ -1,0 +1,126 @@
+
+.apresentacaoPesquisa {
+
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+    .apresentacaoPesquisaContainer {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        margin-top: 10vh;
+        display: inline-block;
+        align-items: center;
+        
+        h4 {
+            text-align: left;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+        }
+       
+        .textIntroducaoContainer {
+            width: 100%;
+            height: 35vh;
+            margin-top: 10vh;
+            display: flex;
+
+            .imagemText {
+                width: 50%;
+                height: 100%;
+                border-radius: 10px;
+                background-image: url(./pesquisa.png);
+                background-position: center;
+                background-size: cover;
+                transition: transform 0.3s ease;
+            }
+            .imagemText:hover {
+                transform: scale(1.05);
+                opacity: .8;
+                cursor: pointer;
+            }
+
+            .textIntroducao {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                h3 {
+                    text-align: left;
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 0;
+                    font-weight: 600;
+                }
+                h4 {
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 0px;
+                }
+
+                .btn-introducao {
+                    border: none;
+                    width: 150px;
+                    margin-left: 40px;
+                    background-color: red;
+                    color: whitesmoke;
+                    border-radius: 2px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao h4 {
+        width: 90%;
+        font-size: 15px;
+    }
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1024px) {
+    .apresentacaoPesquisa {
+
+        .apresentacaoPesquisaContainer {
+           
+            .textIntroducaoContainer {
+                display: inline-block;
+    
+                .imagemText {
+                    width: 90%;
+                    margin: auto;
+                }
+                .textIntroducao {
+                    margin-top: 5vh;
+                    width: 100%;
+
+                    .btn-introducao {
+                        margin-top: 2vh;
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 10px;
+    }
+}

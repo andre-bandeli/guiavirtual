@@ -9,7 +9,7 @@ export const primeiroSlider = [
       imgSrc: primeiraImagem,
       imgAlt: 'Primeiro slider: imagem de um carro cinza em uma estrada como background',
       primeiroTexto: 'Guia virtual de atendimento à mulheres vítimas de violência',
-      segundoTexto: 'Experimente a liberdade da estrada com um carro ou moto novo. Experimente a liberdade da estrada com um carro ou moto novo.'
+      segundoTexto: 'Guia virtual de atendimento à mulheres vítimas de violência. Experimente a liberdade da estrada com um carro ou moto novo.'
     },
     {
         id: 2,

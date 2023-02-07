@@ -16,7 +16,7 @@ export default function Header() {
       <div className='carouselContainer'>
       <Carousel className='carouselBootstrap' indicators={false}>
           {inicialSlider.map((d) => (
-            <Carousel.Item className='carouselItem' interval={3500}>
+            <Carousel.Item className='carouselItem' interval={2500}>
               <img
                 src={d.imgSrc}
               />
