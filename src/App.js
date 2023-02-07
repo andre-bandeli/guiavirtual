@@ -1,17 +1,16 @@
 import './App.css';
+import Header from './home/header/Header';
+import Navbar from './navbar/Navbar';
+import NavSuperior from './navbar/NavSuperior';
 
 function App() {
   return (
     <div className="App">
+      <NavSuperior/>
+      <Navbar/>
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header/>
+
       </header>
     </div>
   );
