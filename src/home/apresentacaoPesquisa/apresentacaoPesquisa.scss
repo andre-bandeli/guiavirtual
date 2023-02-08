@@ -2,7 +2,7 @@
 .apresentacaoPesquisa {
 
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin-top: 10vh;
 
     font-family: 'Montserrat', sans-serif;
@@ -81,6 +81,9 @@
 }
 
 @media (max-width: 1440px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer {
+        height: 40vh;
+    }
     .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao h4 {
         width: 90%;
         font-size: 15px;
@@ -90,23 +93,27 @@
     }
 }
 @media (max-width: 1024px) {
-    .apresentacaoPesquisa {
 
+    .apresentacaoPesquisa {
+        height: auto;
         .apresentacaoPesquisaContainer {
            
             .textIntroducaoContainer {
+                height: 70vh;
                 display: inline-block;
     
                 .imagemText {
                     width: 90%;
+                    height: 40%;
                     margin: auto;
                 }
                 .textIntroducao {
                     margin-top: 5vh;
+                    height: 60%;
                     width: 100%;
 
                     .btn-introducao {
-                        margin-top: 2vh;
+                        margin-top: 0vh;
                         margin-left: 30px;
                     }
                 }
