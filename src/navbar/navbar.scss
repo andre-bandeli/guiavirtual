@@ -4,4 +4,56 @@
     width: 100%;
     height: 20vh;
     background-color: rgb(238, 238, 238);
+    display: inline-block;
+
+    .logo {
+        width: 90%;
+        height: 70%;
+        margin: auto;
+    }
+    .nav {
+        width: 90%;
+        height: 30%;
+        margin: auto;
+
+        ul {
+            width: 100%;
+            height: 80%;
+            margin: auto;
+            display: flex;
+    
+            li {
+                width: auto;
+                display: flex;
+                margin-right: 5vh;
+    
+                h3 {
+                    margin-top: 2vh;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: rgb(54, 54, 54);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar .nav {
+        visibility: hidden;
+        width: 0;
+
+        ul {
+            width: 0;
+
+            li {
+                width: 0;
+                margin-right: 0vh;
+
+                h3 {
+                    font-size: 0;
+                }
+            }
+        }
+    }
 }
