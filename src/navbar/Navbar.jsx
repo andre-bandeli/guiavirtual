@@ -1,39 +1,48 @@
 import React from 'react'
 import './navbar.scss'
+import logo from './logo.png'
+
+import { Link } from "react-router-dom";
+import MobileNavigation from './MobileNavigation';
+
 
 export default function Navbar() {
   return (
     <div className='navbar'>
-
       <div className="logo">
+        <div className="menu">
+          <MobileNavigation/>
+        </div>
+        <img src={logo} alt="" />
+        <div className="search">
 
+        </div>
       </div>
       <div className="nav">
         <ul>
           <li>
-              <h3>Sobre a pesquisa</h3>
+              <Link to="/motocicletas">Sobre a pesquisa</Link>
           </li>
           <li>
-              <h3>Introdução</h3>
+              <Link to="/motocicletas">Introdução</Link>
           </li>
           <li>
-              <h3>Gravações</h3>
+              <Link to="/motocicletas">Gravações</Link>
           </li>
           <li>
-              <h3>Tipificação da violência</h3>
+              <Link to="/motocicletas">Tipificação da violência</Link>
           </li>
           <li>
-              <h3>Noticias e conteúdos extras</h3>
+              <Link to="/motocicletas">Noticias e conteúdos extras</Link>
           </li>
           <li>
-              <h3>Contatos</h3>
+              <Link to="/motocicletas">Contatos</Link>
           </li>
           <li>
-              <h3>Envie uma mensagem</h3>
+              <Link to="/motocicletas">Envie uma mensagem</Link>
           </li>
         </ul>
       </div>
-
     </div>
   )
 }

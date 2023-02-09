@@ -19,6 +19,15 @@ export default function NavSuperior() {
             <Link to="/motocicletas">FCM Faculdade de Ciências Médicas</Link>
         </li>
       </ul>
+      <ul className='icons'>
+        <li className='br-icon'>
+        </li>
+        <li className='eua-icon'>
+
+        </li>
+        <li className='esp-icon'>
+        </li>
+      </ul>
 
     </div>
   )

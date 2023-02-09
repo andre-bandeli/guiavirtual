@@ -9,7 +9,7 @@
     display: flex;
 
     ul {
-        width: 90%;
+        width: 70%;
         height: 80%;
         margin: auto;
         display: flex;
@@ -20,8 +20,8 @@
             margin-right: 4vh;
 
             a {
-                margin-top: 1.5vh;
-                font-size: 15px;
+                margin: auto;
+                font-size: 13px;
                 font-weight: 300;
                 color: rgb(201, 198, 198);
                 text-decoration: none;
@@ -32,6 +32,55 @@
             }
         }
     }
+
+    .icons {
+        width: 10%;
+        margin: auto;
+        margin-right: 10vh;
+        justify-content: left;
+        .br-icon {
+            margin: auto;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-image: url(./br.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .eua-icon {
+            margin: auto;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-image: url(./eua.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .esp-icon {
+            margin: auto;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-image: url(./esp.png);
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .navSuperiorContainer {
+
+        .icons {
+            width: 0;
+            visibility: hidden;
+            .br-icon, .eua-icon, .esp-icon {
+                width: 0;
+                height: 0;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -39,6 +88,7 @@
     .navSuperiorContainer {
 
         ul {
+            margin-bottom: 10px;
 
             li {
                 margin-right: 2vh;
@@ -56,7 +106,7 @@
     .navSuperiorContainer {
         height: auto;
         ul {
-            margin-bottom: 5px;
+            
 
             li {
                 a {
