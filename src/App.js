@@ -32,23 +32,21 @@ function App() {
       case '/sobre':
         title = 'WS Sobre Nós';
         break;
-      case '/financiamentos':
-        title = 'WS Financiamentos';
+      case '/gravacoes':
+        title = 'Gravações';
         break;
-      case '/motocicletas':
-        title = 'WS Motocicletas';
+      case '/noticias':
+        title = 'Noticias';
         break;
-      case '/veiculos':
-        title = 'WS Veículos';
+      case '/contatos':
+        title = 'Contatos';
         break;
-      case '/login':
-        title = 'WS Login';
+      case '/mensagem':
+        title = 'Enviar Mensagem';
         break;
-      case '/contato':
-        title = 'WS Contato';
-        break;
+      
       default:
-        title = 'WebStore';
+        title = 'Guia Virtual de Atendimento';
         break;
     }
     document.title = title;

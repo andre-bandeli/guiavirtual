@@ -3,7 +3,10 @@
 
     width: 100%;
     height: 30vh;
-    background-color: rgb(221, 219, 219);
+    background-color: rgb(238, 237, 237);
+    background-color: rgb(32, 38, 43);
+    font-family: 'Montserrat', sans-serif;
+
     .InicialCards {
         width: 90%;
         height: 30vh;
@@ -13,20 +16,57 @@
         align-items: center;
         justify-content: center;
         margin-left: 5%;
+        
         .boxInicial {
             width: 19%;
             height: 80%;
             margin: auto;
-            background-color: rgb(245, 235, 235);
+            background-color: rgba(235, 233, 233, 0.897);
             border-radius: 5px;
-            display: flex;
+            display: inline-block;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;     
+
+            img {
+                width: 50px;
+                height: 50px;
+                margin-left: 40%;
+                margin-top: 15%;
+            }
+
+            h3 {
+                width: 80%;
+                font-size: 18px;
+                margin: auto;
+                margin-top: 3vh;
+                text-align: center;
+                font-weight: 600;
+            }
         }
     }
 }
 
 
+@media (max-width: 1024px) {
+    .containerCards {
+
+        
+        .InicialCards {
+
+            .boxInicial {
+
+                height: 70%;
+
+                h3 {
+                    font-size: 15px;
+                }
+
+            }
+        }
+    }
+}
 @media (max-width: 768px) {
     .containerCards {
         height: 25vh;
@@ -34,7 +74,12 @@
         .InicialCards {
             height: 25vh;
             .boxInicial {
+                width: 24%;
                height: 70%;
+
+               h3 {
+                font-size: 12px;
+               }
             }
         }
     }
@@ -45,6 +90,21 @@
         height: 20vh;
         .InicialCards {
             height: 20vh;
+
+            .boxInicial {
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 35%;
+                }
+
+                h3 {
+                    font-size: 10px;
+                    margin-top: 1vh;
+                    width: 99%;
+                }
+            }
         }
     }
 }
@@ -54,6 +114,15 @@
         height: 10vh;
         .InicialCards {
             height: 10vh;
+
+            .boxInicial {
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
         }
     }
 }

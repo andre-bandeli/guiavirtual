@@ -1,20 +1,30 @@
 import React from 'react'
 import './InicialCards.scss'
+import coracao from './coracao.png'
 
 export default function InicialCards() {
 
 
-    const data = [1, 2, 3, 4];
-
   return (
     <div className="containerCards">
         <div className='InicialCards'>
-
-            {data.map(item => (
                 <div className="boxInicial">
-                    {item}
+                    <img src={coracao} alt="" />
+                    <h3>Conheça o centro de acolhimento para mulheres</h3>
+  
                 </div>
-            ))}
+                <div className="boxInicial">
+                    <img src={coracao} alt="" />
+                    <h3>Conheça o centro de acolhimento para mulheres</h3>
+                </div>
+                <div className="boxInicial">
+                    <img src={coracao} alt="" />
+                    <h3>Conheça o centro de acolhimento para mulheres</h3>
+                </div>
+                <div className="boxInicial">
+                    <img src={coracao} alt="" />
+                    <h3>Conheça o centro de acolhimento para mulheres</h3>
+                </div>
 
         </div>
     </div>

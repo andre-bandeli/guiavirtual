@@ -3,17 +3,16 @@
 
     width: 100%;
     height: auto;
-    margin-top: 10vh;
-
+    margin-top: 20vh;
     font-family: 'Montserrat', sans-serif;
 
 
     .apresentacaoPesquisaContainer {
-        width: 80%;
+        width: 85%;
         height: 80%;
         margin: auto;
-        margin-top: 10vh;
-        display: inline-block;
+        margin-top: 5vh;
+        display: flex;
         align-items: center;
         
         h4 {
@@ -21,61 +20,91 @@
             font-size: 18px;
             font-weight: 300;
             line-height: 30px;
+
+            p {
+                margin-top: 5vh;
+            }
         }
-       
-        .textIntroducaoContainer {
+
+        .container {
             width: 100%;
-            height: 35vh;
-            margin-top: 10vh;
+            height: 15vh;
+            margin-top: 5vh;
             display: flex;
+            flex-wrap: wrap;
 
-            .imagemText {
-                width: 50%;
-                height: 100%;
-                border-radius: 10px;
-                background-image: url(./pesquisa.png);
-                background-position: center;
-                background-size: cover;
-                transition: transform 0.3s ease;
+            .btn-info {
+                width: 32%;
+                height: 40px;
+                margin: auto;
+                background-color: whitesmoke;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                border: none;
+                border-radius: 5px;
             }
-            .imagemText:hover {
-                transform: scale(1.05);
-                opacity: .8;
-                cursor: pointer;
+            .btn-info:hover {
+                background-color: rgb(255, 253, 253);
+                transition: .4s ease;
             }
-
-            .textIntroducao {
-                width: 50%;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-
-                h3 {
-                    text-align: left;
-                    width: 90%;
-                    margin: auto;
-                    margin-top: 0;
-                    font-weight: 600;
-                }
-                h4 {
-                    width: 90%;
-                    margin: auto;
-                    margin-top: 0px;
-                }
-
-                .btn-introducao {
-                    border: none;
-                    width: 150px;
-                    margin-left: 40px;
-                    background-color: red;
-                    color: whitesmoke;
-                    border-radius: 2px;
-                    font-weight: 500;
-                }
-            }
-
         }
+    }
+    .textIntroducaoContainer {
+        width: 85%;
+        height: 35vh;
+        display: flex;
+        margin: auto;
+        margin-top: 5vh;
+
+        .imagemText {
+            width: 50%;
+            height: 100%;
+            border-radius: 10px;
+            background-image: url(./pesquisa.png);
+            background-position: center;
+            background-size: cover;
+            transition: transform 0.3s ease;
+        }
+        .imagemText:hover {
+            transform: scale(1.05);
+            opacity: .8;
+            cursor: pointer;
+        }
+
+        .textIntroducao {
+            width: 50%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            h3 {
+                text-align: left;
+                width: 90%;
+                margin: auto;
+                margin-top: 0;
+                font-weight: 600;
+            }
+            h4 {
+                width: 90%;
+                margin: auto;
+                margin-top: 0vh;
+                text-align: left;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 30px;
+            }
+
+            .btn-introducao {
+                border: none;
+                width: 200px;
+                margin-left: 40px;
+                background-color: rgb(247, 6, 6);
+                color: whitesmoke;
+                border-radius: 5px;
+                font-weight: 500;
+            }
+        }
+
     }
 
 }
@@ -84,11 +113,11 @@
     .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer {
         height: 40vh;
     }
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao h4 {
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao h4 {
         width: 90%;
         font-size: 15px;
     }
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
         margin-left: 30px;
     }
 }
@@ -96,32 +125,37 @@
 
     .apresentacaoPesquisa {
         height: auto;
-        .apresentacaoPesquisaContainer {
-           
-            .textIntroducaoContainer {
-                height: 70vh;
-                display: inline-block;
-    
-                .imagemText {
-                    width: 90%;
-                    height: 40%;
-                    margin: auto;
-                }
-                .textIntroducao {
-                    margin-top: 5vh;
-                    height: 60%;
-                    width: 100%;
 
-                    .btn-introducao {
-                        margin-top: 0vh;
-                        margin-left: 30px;
-                    }
+        .textIntroducaoContainer {
+            height: 70vh;
+            display: inline-block;
+            width: 100%;
+
+            .imagemText {
+                width: 90%;
+                height: 40%;
+                margin: auto;
+            }
+            .textIntroducao {
+                margin-top: 5vh;
+                height: 30%;
+                width: 100%;
+
+                h4 {
+                    margin-top: 1vh;
+                }
+
+                .btn-introducao {
+                    margin-top: 1vh;
+                    margin-left: 50px;
                 }
             }
         }
     }
 }
+
 @media (max-width: 550px) {
+
     .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
         margin-left: 20px;
     }

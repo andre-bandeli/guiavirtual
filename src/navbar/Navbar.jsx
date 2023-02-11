@@ -1,6 +1,9 @@
 import React from 'react'
 import './navbar.scss'
+import prp from './logo_prp.svg'
 import logo from './logo.png'
+import unicamp from './logo_unicamp.svg'
+import fcm from './fcm.png'
 
 import { Link } from "react-router-dom";
 import MobileNavigation from './MobileNavigation';
@@ -9,15 +12,16 @@ import MobileNavigation from './MobileNavigation';
 export default function Navbar() {
   return (
     <div className='navbar'>
-      <div className="logo">
+        <div className="logo">
+          <img src={prp} alt="" />
+          <img src={fcm} alt="" />
+          <img src={unicamp} alt="" />
+        </div>
+
         <div className="menu">
           <MobileNavigation/>
         </div>
-        <img src={logo} alt="" />
-        <div className="search">
-
-        </div>
-      </div>
+        
       <div className="nav">
         <ul>
           <li>

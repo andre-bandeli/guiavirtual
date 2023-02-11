@@ -3,6 +3,24 @@ import React from 'react'
 import Navbar from '../navbar/Navbar';
 import NavSuperior from '../navbar/NavSuperior';
 import Header from './header/Header'
+import ApresentacaoPesquisa from '../home/apresentacaoPesquisa/ApresentacaoPesquisa';
+import FrameInicial from '../home/frameIncial/FrameInicial'
+import CarouselText from '../home/carousel/CarouselText';
+import TextoContainer from '../home/textos/TextoContainer';
+import SegundoTextoContainer from '../home/textos/SegundoTextoContainer';
+import FilterCategoria from '../home/filterCategorias/FilterCategoria';
+import Poema from '../home/poema/Poema';
+import Noticias from '../home/noticias/Noticias';
+import Contatos from '../home/contatos/Contatos';
+import Duvidas from '../home/duvidas/Duvidas'
+import Footer from '../footer/Footer'
+
+
+
+import InicialCards from '../home/cards/InicialCards';
+import SegundoFrame from './frameIncial/TerceiroFrame';
+import CarouselTextConclusao from './carousel/CarouselTextConclusao';
+import TerceiroFrame from './frameIncial/TerceiroFrame';
 
 export default function Index() {
   return (
@@ -10,6 +28,22 @@ export default function Index() {
         <NavSuperior/>
         <Navbar/>
         <Header/>
+        {/* <InicialCards/>
+        <ApresentacaoPesquisa/>
+        <FrameInicial/>
+        <CarouselText/>
+        <SegundoFrame/>
+        <TextoContainer/>
+        <FilterCategoria/>
+        <SegundoTextoContainer/>
+        <CarouselTextConclusao/>
+        <TerceiroFrame/>
+        <Noticias/>
+        <Poema/>
+        <Duvidas/>
+        <Contatos/>
+        <Footer/> */}
+
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './duvidas.scss'
+import TitleContainer from '../titleContainer/TitleContainer'
 
 import {
     Accordion,
@@ -13,10 +14,10 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default function Duvidas() {
   return (
     <div className='duvidas'>
+         <TitleContainer 
+            title="Principais Dúvidas" 
+            subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
         <div className="container-duvidas">
-
-        <h2>Principais dúvidas</h2>
-        <h3>Retire aqui algumas das principais dúvidas sobre o processo de financiamento.</h3>
         
         <Accordion className='acordion'>
                                 <AccordionItem className='ac'>

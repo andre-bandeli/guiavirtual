@@ -4,75 +4,106 @@ import { useEffect, useState } from 'react';
 import CategoriaList from './CategoriaList';
 import TitleContainer from '../titleContainer/TitleContainer'
 
-import {tipo, tipo2} from './data'
+import {violenciasexual, violenciafisica, violenciapsicologica, violenciainstitucional, violenciamoral,
+     violenciadomestica, violenciapatrimonial, exploracaosexual, assediosexual, assediomoral, carcereprivado, traficodemulheres  } from './data'
 
 export default function FilterCategoria() {
 
 
-    const [selected, setSelected] = useState("tipo");
+    const [selected, setSelected] = useState("violenciasexual");
     const [data, setData] = useState([]);
     const list = [
         {
-        id: "tipo",
-        title: "Tipos 1",
+        id: "violenciasexual",
+        title: "Sexual",
         },
         {
-        id: "tipo2",
-        title: "Tipo 2",
+        id: "violenciafisica",
+        title: "Física",
         },
         {
-        id: "honda",
-        title: "Honda",
+        id: "violenciapsicologica",
+        title: "Psicológica",
         },
         {
-        id: "bmw",
-        title: "BMW Motorrad",
+        id: "violenciainstitucional",
+        title: "Institucional",
         },
         {
-        id: "motos",
-        title: "Motocicletas",
+        id: "violenciamoral",
+        title: "Moral",
         },
         {
-        id: "yamaha",
-        title: "Yamaha",
+        id: "violenciadomestica",
+        title: "Doméstica",
         },
         {
-        id: "honda",
-        title: "Honda",
+        id: "violenciapatrimonial",
+        title: "Patrimonial",
         },
         {
-        id: "bmw",
-        title: "BMW Motorrad",
+        id: "exploracaosexual",
+        title: "Exploração Sexual",
         },
         {
-        id: "motos",
-        title: "Motocicletas",
+        id: "assediosexual",
+        title: "Assédio Sexual",
         },
         {
-        id: "yamaha",
-        title: "Yamaha",
+        id: "assediomoral",
+        title: "Assédio Moral",
         },
         {
-        id: "honda",
-        title: "Honda",
+        id: "carcereprivado",
+        title: "Cárcere Privado",
         },
         {
-        id: "bmw",
-        title: "BMW Motorrad",
+        id: "traficodemulheres",
+        title: "Tráfico de Mulheres",
         },
         
     ];
 
     useEffect(() => {
         switch (selected) {
-        case "tipo":
-            setData(tipo);
+        case "violenciasexual":
+            setData(violenciasexual);
             break;
-        case "tipo2":
-            setData(tipo2);
+        case "violenciafisica":
+            setData(violenciafisica);
+            break;
+        case "violenciapsicologica":
+            setData(violenciapsicologica);
+            break;
+        case "violenciainstitucional":
+            setData(violenciainstitucional);
+            break;
+        case "violenciamoral":
+            setData(violenciamoral);
+            break;
+        case "violenciadomestica":
+            setData(violenciadomestica);
+            break;
+        case "violenciapatrimonial":
+            setData(violenciapatrimonial);
+            break;
+        case "exploracaosexual":
+            setData(exploracaosexual);
+            break;
+        case "assediosexual":
+            setData(assediosexual);
+            break;
+        case "assediomoral":
+            setData(assediomoral);
+            break; 
+        case "carcereprivado":
+            setData(carcereprivado);
+            break;
+        case "traficodemulheres":
+            setData(traficodemulheres);
             break;
         default:
-            setData(tipo);
+            setData(violenciasexual);
         }
     }, [selected]);
 
@@ -80,8 +111,8 @@ export default function FilterCategoria() {
   return (
     <div className='filterCategoria'>
             <TitleContainer 
-            title="Título da pesquisa" 
-            subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
+            title="Tipos de Violência" 
+            subtitle="A tipificação apresentada a seguir é proposta pela Política Nacional de Enfrentamento à Violência Contra as Mulheres" />
 
         <div className='filter'>
                 <ul>

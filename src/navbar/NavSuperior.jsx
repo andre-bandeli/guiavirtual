@@ -10,22 +10,36 @@ export default function NavSuperior() {
 
       <ul>
         <li>
-            <Link to="/motocicletas">Ética em Pesquisa</Link>
+            <Link to="http://www3.prpg.gr.unicamp.br/sites/site1/index.php/mestradodoutorado/">Mestrado na Unicamp</Link>
         </li>
         <li>
-            <Link to="/motocicletas">Mestrado na Unicamp</Link>
+            <Link to="https://www.fcm.unicamp.br/posgraduacao/mestradodoutorado-stricto-sensu">Mestrado FCM</Link>
         </li>
         <li>
-            <Link to="/motocicletas">FCM Faculdade de Ciências Médicas</Link>
+            <Link to="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva">Saúde Coletiva</Link>
         </li>
       </ul>
       <ul className='icons'>
         <li className='br-icon'>
+          <Link to="/">
+              <button>
+                  
+              </button>
+          </Link>
         </li>
         <li className='eua-icon'>
-
+          <Link to="/">
+                <button>
+                    
+                </button>
+            </Link>
         </li>
         <li className='esp-icon'>
+          <Link to="/">
+                <button>
+                    
+                </button>
+            </Link>
         </li>
       </ul>
 

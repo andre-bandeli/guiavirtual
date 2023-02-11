@@ -2,19 +2,12 @@
 
 .navbar {
     width: 100%;
-    height: 23vh;
+    height: 25vh;
     background-color: rgb(253, 247, 247);
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
 
-
-    .logo {
-        width: 90%;
-        height: 70%;
-        margin: auto;
-        display: flex;
-
-        .menu {
+    .menu {
             margin-top: 8vh;
             width: 0px;
             height: 0px;
@@ -25,25 +18,23 @@
                 width: 0;
                 height: 0;
             }
-        }
+    }
+    .logo {
+            width: 35%;
+            height: 35%;
+            margin: auto;
+            display: flex;
+            margin-left: 10vh;
+            margin-top: 6vh;
+
 
         img {
-            width: 185px;
-            height: 80px;
-            margin-top: 6.5vh;
-            margin-left: 3vh;
-        }
-
-        .search {
-            width: 300px;
-            height: 50px;
-            margin-top: 8vh;
-            margin-left: 60%;
-            border-radius: 5px;
-            background-color: rgba(189, 184, 184, 0.233);
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                width: 100%;
+                height: 100%;
+                margin-left: 3vh;
         }
     }
+
     .nav {
         width: 90%;
         height: 30%;
@@ -58,7 +49,7 @@
             li {
                 width: auto;
                 display: flex;
-                margin-right: 5vh;
+                margin-right: 3vh;
     
                 a {
                     text-decoration: none;
@@ -78,30 +69,28 @@
 
 @media (max-width: 1440px) {
     .navbar {
-        height: 20vh;
-
-        .logo {
-
             .menu {
-                width: 70px;
+                width: 100%;
                 height: 70px;
                 margin-left: 1vh;
+                margin-top: 2vh;
                 visibility: visible;
 
                 .Hamburguer {
+                    margin-left: 7vh;
                     width: 50px;
                     height: 50px;
                 }
             }
-
-            img {
-                margin-left: 25%;
+            .logo {
+                width: 50%;
+                height: 40%;
+                margin-top: 5vh;
+                margin-left: 8vh;
+                img {
+                    margin-left: 1vh;
+                }
             }
-    
-            .search {
-                margin-left: 15%;
-            }
-        }
     }
     .navbar .nav {
         ul {
@@ -113,22 +102,20 @@
         }
     }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .navbar {
+
+        .menu {
+            margin-top: 3vh;
+        }
+
         .logo {
-            .menu {
-                .Hamburguer {
-                    width: 50px;
-                    height: 50px;
-                }
-            }
-            img {
-            margin-left: 20%;
-            }
+            margin-top: 6vh;
+            height: 30%;
         }
     }
 }
+
 
 
 @media (max-width: 550px) {
@@ -136,27 +123,8 @@
 
         .logo {
 
-            .menu {
-                margin-top: 9vh;
-                margin-left: 3vh;
-                .Hamburguer {
-                    width: 40px;
-                    height: 40px;
-                   
-                }
-            }
-
-            img {
-                margin-top: 7vh;
-                width: 130px;
-                height: 70px;
-            margin-left: 40%;
-            }
-    
-            .search {
-                width: 0;
-                visibility: hidden;
-            }
+            width: 35%;
+            height: 30%;
         }
     }
 }
@@ -165,10 +133,9 @@
     .navbar {
 
         .logo {
-            img {
- 
-                margin-left: 30%;
-            }
+
+            width: 30%;
+            height: 30%;
         }
     }
 }
