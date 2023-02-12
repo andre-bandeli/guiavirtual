@@ -1,6 +1,6 @@
 @import '../../main_css_variaveis/variaveis.css';
 
-.carouselTextContainer {
+.carouselText {
     width: 100%;
     height: auto;
     font-family: var(--font-primary);
@@ -11,15 +11,14 @@
         margin: auto;
         margin-top: 10vh;
         .carouselTextBootstrap {
-
-            .carouselTextlItem {
+            .carouselTextItem {
 
                 height: 60vh;
                 border: none;
     
                 .carouselTextItemContentConclusao {
-                    width: 100%;
-                    height: 70%;
+                    width: 90%;
+                    height: 100%;
                     background-color: rgb(56, 56, 56);
                     border-radius: 10px;
                     margin: auto;
@@ -39,7 +38,7 @@
                             text-align: left;
                             font-size: 22px;
                             font-weight: 200;
-                            line-height: 40px;
+                            line-height: normal;
                             margin: auto;
                             width: 80%;
                             color: rgb(228, 227, 227);

@@ -14,25 +14,34 @@ export default function Noticias() {
 
             <div class="news-grid">
                 <div class="news-item">
-                    <h3>Política Nacional de Enfrentamento à Violência Contra as Mulheres</h3>
-
+                    <div className="text">
+                        <h3>Política Nacional de Enfrentamento à Violência Contra as Mulheres</h3>
+                    </div>
                 </div>
             <div class="news-item">
-                <h3>Política Nacional de Enfrentamento à Violência Contra as Mulheres</h3>
+                <div className="text">
+                    <h3>Política Nacional de Enfrentamento à Violência Contra as Mulheres</h3>
+                </div>
             </div>
             <div class="news-item">
-                <h3>Manual para Atendimento às Vítimas de Violência na Rede de Saúde Pública do DF (2009)</h3>
-                <p>Resumo da Notícia 2</p>
+                <div className="text">
+                    <h3>Manual para Atendimento às Vítimas de Violência na Rede de Saúde Pública do DF (2009)</h3>
+                </div>
             </div>
             <div class="news-item">
-                <h3>Música P.U,T,A. Composição de Mulamba</h3>
+                <div className="text">
+                    <h3>Música P.U.T.A. Composição de Mulamba</h3>
+                </div>
             </div>
             <div class="news-item">
-                <h3>Conheça mais sobre a Pesquisa acessando o site da FCM</h3>
+                <div className="text">
+                    <h3>Conheça mais sobre a Pesquisa acessando o site da FCM</h3>
+                </div>
             </div>
             <div class="news-item">
-                <h3>Machistômetro</h3>
-                <p>Resumo da Notícia 2</p>
+                <div className="text">
+                    <h3>Machistômetro</h3>
+                </div>
             </div>
 
             </div>

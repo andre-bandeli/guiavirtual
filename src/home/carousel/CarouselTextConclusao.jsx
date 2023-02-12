@@ -1,5 +1,6 @@
 import React from 'react'
 import './carouselText.scss'
+import './responsive.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import TitleContainer from '../titleContainer/TitleContainer'
@@ -13,13 +14,13 @@ export default function CarouselTextConclusao() {
 
   const [inicialSlider] = useState(segundoSlider);
   return (
-    <div className='carouselTextContainer'>
+    <div className='carouselText'>
       <TitleContainer title="Concluindo"
         subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
       <div className='carouselTextContainer'>
         <Carousel className='carouselTextBootstrap' indicators={false}>
           {segundoSlider.map((d) => (
-          <Carousel.Item className='carouselTextlItem' interval={10500}>
+          <Carousel.Item className='carouselTextItem' interval={10500}>
             <div className="carouselTextItemContentConclusao">
               <div className="textCarousel">
                 <h3>

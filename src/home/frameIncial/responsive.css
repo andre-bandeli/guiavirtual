@@ -22,7 +22,7 @@
 @media (max-width: 1024px) {
     .frameInicial {
         height: auto;
-        margin-top: 0vh;
+        margin-top: 15vh;
     }
 
     .frameInicial .containerIframeInicial {
@@ -64,10 +64,14 @@
         margin-left: 0;
     }
 }
-
+@media (max-width: 550px) {
+    .frameInicial {
+        margin-top: 15vh;
+    }
+}
 @media (max-width: 400px) {
     .frameInicial {
-        margin-top: 25vh;
+        margin-top: 35vh;
     }
 
     .frameInicial .containerIframeInicial .text .btn-iframe-share {
