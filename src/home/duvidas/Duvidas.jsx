@@ -1,5 +1,6 @@
 import React from 'react'
 import './duvidas.scss'
+import './responsive.css'
 import TitleContainer from '../titleContainer/TitleContainer'
 
 import {

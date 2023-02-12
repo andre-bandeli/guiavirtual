@@ -1,5 +1,6 @@
 import React from 'react'
 import './contatos.scss'
+import './responsive.css'
 import TitleContainer from '../titleContainer/TitleContainer'
 import { Link } from "react-router-dom";
 

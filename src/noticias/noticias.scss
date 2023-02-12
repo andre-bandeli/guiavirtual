@@ -1,9 +1,10 @@
+@import '../main_css_variaveis/variaveis.css';
 
 
 .noticias {
     width: 100%;
     height: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-primary);
     margin-top: 0;
 
 

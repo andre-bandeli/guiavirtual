@@ -1,8 +1,11 @@
+@import '../../main_css_variaveis/variaveis.css';
+
 
 .contatosHome {
     width: 100%;
     height: auto;
     display: inline-block;
+    font-family: var(--font-primary);
 
     .containerContatosHome {
         width: 80%;
@@ -19,8 +22,8 @@
             margin: auto;
             margin-top: 2vh;
             border-radius: 5px;
-            background-color: rgb(252, 249, 249);
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;       
+            background-color: var(--color-buttom-bg-light);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
             display: flex;
             align-items: center;
 
@@ -29,14 +32,15 @@
                 font-size: 16px;
                 margin-top: 1vh;
                 margin-left: 2vh;
-                color: black;
+                color: var(--font-primary-color-link-dark);
             }
+
             h4 {
                 text-decoration: none;
                 font-size: 16px;
                 margin-top: 1vh;
                 margin-left: 2vh;
-                color: black;
+                color: var(--font-primary-color-text-dark);
             }
 
             img {
@@ -45,60 +49,7 @@
                 margin-left: 4vh;
                 opacity: .5;
             }
-        
-        }
-    }
-}
 
-@media (max-width: 1440px) {
-    
-    .contatosHome {
-        .containerContatosHome {
-            .containerBoxHome {
-                h4 {
-                    font-size: 12px;
-                }
-
-                img {
-                    width: 30px;
-                    height: 30px;
-                    margin-left: 1vh;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 768px) {
-    
-    .contatosHome {
-        .containerContatosHome {
-            .containerBoxHome {
-                width: 49%;
-                h4 {
-                    font-size: 12px;
-                    margin-top: 1.5vh;
-                    margin-left: 1vh;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 350px) {
-    
-    .contatosHome {
-        .containerContatosHome {
-            .containerBoxHome {
-                width: 90%;
-
-                img {
-                    margin-left: 3vh;
-                }
-                h4 {
-                    font-size: 12px;
-                    margin-top: 1.5vh;
-                    margin-left: 1vh;
-                }
-            }
         }
     }
 }

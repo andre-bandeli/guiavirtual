@@ -1,3 +1,5 @@
+@import '../../main_css_variaveis/variaveis.css';
+
 
 .filterCategoria {
 
@@ -5,8 +7,7 @@
     height: auto;
     display: inline-block;
     margin-top: 15vh;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: var(--font-primary);
 
     .filter {
         width: 85%;
@@ -22,11 +23,12 @@
         }
 
     }
+
     .text-descricao {
         width: 80%;
         height: auto;
         display: flex;
-        background-color: rgb(241, 239, 239);
+        background-color: var(--bg-text-light);
         margin: auto;
         margin-top: 5vh;
 
@@ -42,6 +44,7 @@
                 font-size: 25px;
                 margin-top: 5vh;
             }
+
             h3 {
                 text-align: left;
                 font-size: 18px;
@@ -55,37 +58,37 @@
 }
 
 @media (max-width: 550px) {
-    
-.filterCategoria {
 
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    margin-top: 15vh;
-    font-family: 'Montserrat', sans-serif;
+    .filterCategoria {
 
-
-    .filter {
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin: auto;
-        margin-left: 2.5vh;
-        margin-top: 10vh;
+        display: inline-block;
+        margin-top: 15vh;
+        font-family: 'Montserrat', sans-serif;
 
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            list-style: none;
-            margin-left: 0vh;
-            width: 100%;
 
-            li {
-                width: 45%;
+        .filter {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            margin-left: 2.5vh;
+            margin-top: 10vh;
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                list-style: none;
+                margin-left: 0vh;
+                width: 100%;
+
+                li {
+                    width: 45%;
+                }
             }
+
         }
 
     }
-
-}
 }
