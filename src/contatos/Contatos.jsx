@@ -2,16 +2,39 @@ import React from 'react'
 import Navbar from '../navbar/Navbar';
 import NavSuperior from '../navbar/NavSuperior';
 import './contatos.scss'
+import './responsivo.css'
+import '../produtosRelacionados/relacionados.scss'
 import Footer from '../footer/Footer'
 import TitleContainerSobre from './titleContainer/TitleContainerContainer';
 
 import { Link } from "react-router-dom";
 
 
-import news from './assets/news.webp'
-import pdf from './assets/pdf.png'
-import site from './assets/site.png'
-import contato from './assets/contato.png'
+import news from '../assets/news.webp'
+import pdf from '../assets/pdf.webp'
+import site from '../assets/site.webp'
+import contato from '../assets/contato.webp'
+
+
+const Related = ({icon, title, link}) => (
+  <li>
+    <div className="icon">
+      <img src={icon} alt="" />
+    </div>
+    <div className="text">
+    <h3>
+      <Link to={link}>{title}</Link>
+    </h3>
+    </div>
+  </li>
+);
+
+const RelatedList = () => (
+  <ul className='related'>
+    <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+    <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
+  </ul>
+);
 
 export default function Contatos() {
   return (
@@ -78,42 +101,7 @@ export default function Contatos() {
                     <h2>
                       Noticias e conteúdos relacionados
                     </h2>
-
-                    <ul>
-                      <li>
-                        <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <h3>Política Nacional de Enfrentamento à Violência Contra as Mulheres</h3>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <h3>8 em cada dez vítimas de violência contra mulher sofreram abusos psicologicos [...]</h3>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={site} alt="" />
-                        </div>
-                         <div className="text">
-                          <h3>Tipos de Violência: Instituto Maria da Penha</h3>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={pdf} alt="" />
-                        </div>
-                         <div className="text">
-                          <h3>Protocolo do fluxo intersetorial de atendimento à mulher vítima de violência</h3>
-                         </div>
-                      </li>
-                      
-                    </ul>
+                    <RelatedList/>
                 </div>
             </div>
         </div>

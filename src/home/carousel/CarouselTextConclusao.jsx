@@ -14,24 +14,23 @@ export default function CarouselTextConclusao() {
   const [inicialSlider] = useState(segundoSlider);
   return (
     <div className='carouselTextContainer'>
-      <TitleContainer 
-            title="Concluindo" 
-            subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
+      <TitleContainer title="Concluindo"
+        subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
       <div className='carouselTextContainer'>
-      <Carousel className='carouselTextBootstrap' indicators={false}>
+        <Carousel className='carouselTextBootstrap' indicators={false}>
           {segundoSlider.map((d) => (
-            <Carousel.Item className='carouselTextlItem' interval={10500}>
-                <div className="carouselTextItemContentConclusao">
-                    <div className="textCarousel">
-                        <h3>
-                            {d.texto}
-                        </h3>
-                    </div>
+          <Carousel.Item className='carouselTextlItem' interval={10500}>
+            <div className="carouselTextItemContentConclusao">
+              <div className="textCarousel">
+                <h3>
+                  {d.texto}
+                </h3>
+              </div>
 
-                </div>
-            </Carousel.Item>
+            </div>
+          </Carousel.Item>
           ))}
-      </Carousel>
+        </Carousel>
       </div>
     </div>
   )

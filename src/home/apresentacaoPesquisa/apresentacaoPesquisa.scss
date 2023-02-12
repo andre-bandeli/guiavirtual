@@ -1,10 +1,11 @@
+@import '../../main_css_variaveis/variaveis.css';
 
 .apresentacaoPesquisa {
 
     width: 100%;
     height: auto;
     margin-top: 20vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-primary);
 
 
     .apresentacaoPesquisaContainer {
@@ -37,13 +38,18 @@
                 width: 32%;
                 height: 40px;
                 margin: auto;
-                background-color: whitesmoke;
+                background-color: var(--color-related-bg-light);
                 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
                 border: none;
                 border-radius: 5px;
+
+                a {
+                    text-decoration: none;
+                    color: var(--font-primary-color-link-dark);
+                }
             }
             .btn-info:hover {
-                background-color: rgb(255, 253, 253);
+                background-color: var(--color-buttom-bg-light);
                 transition: .4s ease;
             }
         }
@@ -98,106 +104,16 @@
                 border: none;
                 width: 200px;
                 margin-left: 40px;
-                background-color: rgb(247, 6, 6);
-                color: whitesmoke;
+                background-color: var(--button-red);
                 border-radius: 5px;
                 font-weight: 500;
-            }
-        }
 
-    }
-
-}
-
-@media (max-width: 1440px) {
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer {
-        height: 40vh;
-    }
-    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao h4 {
-        width: 90%;
-        font-size: 15px;
-    }
-    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
-        margin-left: 30px;
-    }
-}
-@media (max-width: 1024px) {
-
-    .apresentacaoPesquisa {
-        height: auto;
-
-        .apresentacaoPesquisaContainer {
-
-            .container {
-
-                .btn-info {
-                    font-size: 14px;
+                a {
+                    color: var(--font-primary-color-link-light);
+                    text-decoration: none;
                 }
             }
         }
 
-        .textIntroducaoContainer {
-            height: 70vh;
-            display: inline-block;
-            width: 100%;
-
-            .imagemText {
-                width: 90%;
-                height: 40%;
-                margin: auto;
-            }
-            .textIntroducao {
-                margin-top: 5vh;
-                height: 30%;
-                width: 100%;
-
-                h4 {
-                    margin-top: 1vh;
-                }
-
-                .btn-introducao {
-                    margin-top: 1vh;
-                    margin-left: 50px;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 768px) {
-
-    .apresentacaoPesquisa {
-
-        .apresentacaoPesquisaContainer {
-
-            .container {
-                .btn-info {
-                    font-size: 12px;
-                }
-            }
-        }
-        .textIntroducaoContainer .textIntroducao .btn-introducao {
-            margin-left: 40px;
-        }
-    }
-}
-
-@media (max-width: 550px) {
-
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .container .btn-info {
-        height: 60px;
-        margin-top: 2vh;
-    }
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .container .btn-info {
-        font-size: 10px;
-    }
-    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
-        margin-left: 20px;
-    }
-
-}
-@media (max-width: 450px) {
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
-        margin-left: 10px;
     }
 }

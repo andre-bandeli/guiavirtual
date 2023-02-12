@@ -1,0 +1,109 @@
+
+@media (max-width: 1024px) {
+    .carouselTextContainer {
+        height: auto;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent {
+        height: 100%;
+        display: inline-block;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent .imagemCarousel{
+        width: 100%;
+        height: 50%;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent .textCarousel{
+        width: 100%;
+        height:30%;
+        margin-top: 2vh;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent .textCarousel h3 {
+        width: 100%;
+        font-size: 15px;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h1{
+        width: 70%;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h2{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .carouselTextContainer .carouselTextContainer {
+        margin-top: 0;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carouselTextContainer {
+        height: 80vh;
+        margin-top: 10vh;
+    }
+    .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContentConclusao {
+        height: auto;
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+    .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContentConclusao .textCarousel {
+        width: 80%;
+        margin-bottom: 5vh;
+    }
+    .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContentConclusao .textCarousel h3 {
+        margin-top: 5vh;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent {
+        left: 0; right: 0; top: 50%; transform: translateY(-60%);
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h1 {
+        width: 70%;
+        margin-left: 5vh;
+        font-size: 28px;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h2 {
+        margin-left: 5vh;
+        width: 80%;
+        font-size: 16px;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent .btn-header {
+        margin-left: 5vh;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .carouselTextContainer {
+        height: 75vh;
+        margin-top: 30vh;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem {
+        height: 65vh;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent {
+        width: 80%;
+        left: 0; right: 0; top: 50%; transform: translateY(-60%);
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h1 {
+        width: 70%;
+        margin-left: 5vh;
+        font-size: 24px;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent h2 {
+        margin-left: 5vh;
+        width: 80%;
+        font-size: 15px;
+    }
+    .carouselTextContainer .carouselTextContainer .carouselTextBootstrap .carouselTextlItem .carouselTextItemContent .btn-header {
+        margin-left: 5vh;
+    }
+}

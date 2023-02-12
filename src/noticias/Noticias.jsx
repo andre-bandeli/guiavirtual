@@ -8,7 +8,6 @@ import TitleContainerNoticias from './titleContainer/TitleContainerNoticias';
 import { Link } from "react-router-dom";
 
 
-import news from './news.png'
 import imagem1 from '../home/noticias/assets/imagem1.webp'
 import imagem3 from '../home/noticias/assets/imagem3.webp'
 import imagem2 from '../home/noticias/assets/imagem2.webp'
@@ -22,9 +21,34 @@ import gov from '../home/noticias/assets/gov.png'
 import noticia7 from '../home/noticias/assets/noticia7.png'
 import noticia8 from '../home/noticias/assets/noticia8.png'
 
-import pdf from './pdf.png'
-import contato from './contato.png'
-import mensagem from './mensagem.png'
+import news from '../assets/news.webp'
+import pdf from '../assets/pdf.webp'
+import contato from '../assets/contato.webp'
+import mensagem from '../assets/mensagem.webp'
+
+
+
+
+const Related = ({icon, title, link}) => (
+    <li>
+      <div className="icon">
+        <img src={icon} alt="" />
+      </div>
+      <div className="text">
+      <h3>
+        <Link to={link}>{title}</Link>
+      </h3>
+      </div>
+    </li>
+  );
+  
+  const RelatedList = () => (
+    <ul className='related'>
+      <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+      <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    </ul>
+  );
+
 
 
 export default function Noticias() {
@@ -123,52 +147,7 @@ export default function Noticias() {
                       Conteúdos relacionados
                     </h2>
 
-                    <ul>
-                      <li>
-                        <div className="icon">
-                            <img src={pdf} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Conheça mais sobre a pesquisa clicando aqui</Link>
-
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={mensagem} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="/mensagem">Em caso de dúvidas, envie uma mensagem</Link>
-
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={contato} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="/contatos">Confira contatos que podem ser úteis</Link>
-
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="/">Casos de violência contra mulher aumentam na pandemia [...]</Link>
-
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres">Politica Nacional de Enfrentamento à Violência [...]</Link>
-                         </div>
-                      </li>
-                    </ul>
+                    <RelatedList/>
                 </div>
             </div>
         </div>

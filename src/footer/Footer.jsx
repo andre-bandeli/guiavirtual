@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
-import git from './git.png'
-import linkedin from './in.png'
+import git from '../assets/git.webp'
+import linkedin from '../assets/in.webp'
 
 import { Link } from "react-router-dom";
 

@@ -1,0 +1,80 @@
+@media (max-width: 1440px) {
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome h4 {
+        font-size: 12px;
+    }
+
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome img {
+        width: 30px;
+        height: 30px;
+        margin-left: 1vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contatos {
+        height: auto;
+    }
+
+    .contatos .containerContatos {
+        height: auto;
+    }
+
+    .contatos .containerContatos .container-md-contatos {
+        width: 90%;
+        display: inline;
+    }
+
+    .contatos .containerContatos .container-md-contatos .text {
+        width: 85%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .contatos .containerContatos .container-md-contatos .text h2 {
+        font-size: 18px;
+        width: 80%;
+        text-align: left;
+        font-weight: 300;
+        margin-bottom: 5vh;
+        line-height: 25px;
+        margin-top: 5vh;
+    }
+
+    .contatos .containerContatos .container-md-contatos .relacionados {
+        width: 85%;
+        height: auto;
+        margin-top: 0vh;
+    }
+
+    .contatos .containerContatos .container-md-contatos .relacionados h2 {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome {
+        width: 49%;
+    }
+
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome h4 {
+        font-size: 12px;
+        margin-top: 1.5vh;
+        margin-left: 1vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome {
+        width: 90%;
+    }
+
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome img {
+        margin-left: 3vh;
+    }
+
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome h4 {
+        font-size: 12px;
+        margin-top: 1.5vh;
+        margin-left: 1vh;
+    }
+}

@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+    .sobre .containerSobre .container-md-sobre {
+        width: 90%;
+        display: inline;
+    }
+
+    .sobre .containerSobre .container-md-sobre .text h2 {
+        font-size: 18px;
+        width: 80%;
+        text-align: left;
+        font-weight: 300;
+        margin-bottom: 5vh;
+        line-height: 25px;
+        margin-top: 5vh;
+    }
+
+    .sobre .containerSobre .container-md-sobre .text {
+        width: 85%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .sobre .containerSobre .container-md-sobre .relacionados h2 {
+        padding-top: 25px;
+    }
+
+    .sobre .containerSobre .container-md-sobre .relacionados {
+        width: 85%;
+        height: auto;
+        margin-top: 0vh;
+    }
+
+    .sobre .containerSobre .container-md-sobre .relacionados ul {
+        margin-top: 2vh;
+        padding-bottom: 55px;
+    }
+}

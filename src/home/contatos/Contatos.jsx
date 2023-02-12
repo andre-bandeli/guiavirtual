@@ -3,9 +3,8 @@ import './contatos.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
 import { Link } from "react-router-dom";
 
-import phone from './phone.png'
-import contato from './contato.png'
-import site from './site.png'
+import contato from '../../assets/contato.webp'
+import site from '../../assets/site.webp'
 
 export default function Contatos() {
   return (

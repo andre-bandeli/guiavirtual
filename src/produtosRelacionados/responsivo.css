@@ -1,0 +1,13 @@
+
+@media (max-width: 1024px) {
+
+    .contatos .containerContatos .container-md-contatos .relacionados {
+        width: 85%;
+        height: auto;
+        margin-top: 0vh;
+    }
+
+    .contatos .containerContatos .container-md-contatos .relacionados h2 {
+        padding-top: 25px;
+    }
+}

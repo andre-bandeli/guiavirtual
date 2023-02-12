@@ -8,9 +8,31 @@ import TitleContainerSobre from './titleContainer/TitleContainerContainer';
 import { Link } from "react-router-dom";
 
 
-import news from './news.png'
-import pdf from './pdf.png'
-import site from './site.png'
+import news from '../assets/news.webp'
+import pdf from '../assets/pdf.webp'
+import site from '../assets/site.webp'
+
+
+const Related = ({icon, title, link}) => (
+  <li>
+    <div className="icon">
+      <img src={icon} alt="" />
+    </div>
+    <div className="text">
+    <h3>
+      <Link to={link}>{title}</Link>
+    </h3>
+    </div>
+  </li>
+);
+
+const RelatedList = () => (
+  <ul className='related'>
+    <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+    <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
+  </ul>
+);
+
 
 export default function Gravacoes() {
   return (
@@ -41,44 +63,7 @@ export default function Gravacoes() {
                       Noticias e conteúdos relacionados
                     </h2>
 
-                    <ul>
-                      <li>
-                        <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-
-                          <Link to="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres">Política Nacional de Enfrentamento à Violência Contra as Mulheres</Link>
-
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="https://g1.globo.com/sp/sao-paulo/noticia/2022/03/31/8-em-cada-dez-vitimas-de-violencia-contra-mulher-sofreram-abusos-psicologicos-na-pandemia-diz-projeto-que-atua-com-rede-de-voluntarias.ghtml">8 em cada dez vítimas de violência contra mulher sofreram abusos psicologicos [...]</Link>
-
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={site} alt="" />
-                        </div>
-                         <div className="text">
-                          <Link to="https://www.institutomariadapenha.org.br/">Tipos de Violência: Instituto Maria da Penha</Link>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={pdf} alt="" />
-                        </div>
-                         <div className="text">
-                            <Link to="https://drive.google.com/file/d/1kaDFIrn55E6luXpnvfw8-q_bRFZiTRCE/view">Ficha de notificação de violência</Link>
-                         </div>
-                      </li>
-                      
-                    </ul>
+                    <RelatedList/>
                 </div>
             </div>
         </div>

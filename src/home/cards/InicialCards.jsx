@@ -1,7 +1,8 @@
 import React from 'react'
 import './InicialCards.scss'
-import pdf from './pdf.png'
-import site from './site.png'
+import './responsive.css'
+import pdf from '../../assets/pdf.webp'
+import site from '../../assets/site.webp'
 import { Link } from "react-router-dom";
 
 export default function InicialCards() {

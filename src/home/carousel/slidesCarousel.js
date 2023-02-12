@@ -1,26 +1,3 @@
-import imagem1 from './assets/primeiraImagem.avif'
-import segundaImagem from './assets/magoz-education.webp'
-import imagem3 from './assets/imagem3.webp'
-
-
-
-export const primeiroSlider = [
-    {
-      id: '1',
-      imgSrc: imagem1,
-      texto: 'Todos temos impulsos agressivos em alguma medida, mas direcionar esses impulsos na forma de violência é outra história. A manifestação da agressividade da forma de VIOLÊNCIA significa utilizar PODER, força física, influências e privilégios para DOMINAR alguém ou um grupo de pessoas e essa dominação provoca danos significativos: diminui a qualidade de vida de pessoas e famílias, provoca morte, doenças, lesões, problemas emocionais, psicológicos, espirituais, enfim… é um problema que precisa ser tratado intersetorialmente, multidisciplinarmente.',
-    },
-    {
-        id: 2,
-        imgSrc: segundaImagem,
-        texto: 'A violência é social e histórica: em diferentes sociedades e em diferentes tempos, aparece sob formas diferentes, e aquelas formas que persistem por muuuito tempo são consideradas violência cultural. Essa violência cultural é tão...CULTURAL, assimilada, aprendida de maneira intencional ou não intencional, que é comum nem percebermos direito quando acontece (MINAYO, 2007).',
-    },
-    {
-        id: 3,
-        imgSrc: imagem3,
-        texto: 'Portanto, nosso primeiro passo aqui vai ser tentar identificar algumas formas de violência – no caso, especificamente, contra a mulher – para depois pensar qual papel podemos exercer na cultura, que é dinâmica, viva, e se transforma constantemente.',
-        }
-];
 
 export const segundoSlider = [
   {

@@ -1,0 +1,26 @@
+
+
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-primary-color-title-dark: rgb(17, 17, 17);
+    --font-primary-color-title-light: whitesmoke;
+    --font-secundary-color-title: rgb(226, 95, 8);
+    --font-primary-color-subtitle-dark: rgb(70, 68, 68);
+    --font-primary-color-subtitle-light: rgb(202, 202, 202);
+    --font-primary-color-text-dark: rgb(27, 25, 25);
+    --nav-background-color-light: rgb(253, 247, 247);
+    --nav-background-color-dark:  rgb(54, 54, 54);
+    --menu-font-color-dark:  rgb(95, 93, 93);
+    --menu-font-color-fulldark:  rgb(37, 36, 36);
+    --button-header-dark: rgb(68, 67, 67);
+    --button-red: rgb(248, 6, 6);
+    --font-primary-color-link-light: whitesmoke;
+    --font-primary-color-link-dark: rgb(17, 17, 17);
+    --bg-dark-cards: rgb(32, 38, 43);
+
+    /* button */
+    --color-buttom-bg-light: rgb(252, 249, 249);
+    --color-related-bg-light: whitesmoke;
+
+    /* tela relacionados */
+}

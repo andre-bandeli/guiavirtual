@@ -1,0 +1,86 @@
+@media (max-width: 1440px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer {
+        height: 40vh;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao h4 {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .apresentacaoPesquisa {
+        height: auto;
+    }
+
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer {
+        .container .btn-info {
+            font-size: 14px;
+        }
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer {
+        height: 70vh;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .imagemText {
+        width: 90%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao {
+        margin-top: 5vh;
+        height: 30%;
+        width: 100%;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao h4 {
+        margin-top: 1vh;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-top: 1vh;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer {
+        .container .btn-info {
+            font-size: 12px;
+        }
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .container .btn-info {
+        height: 60px;
+        margin-top: 2vh;
+    }
+
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .container .btn-info {
+        font-size: 10px;
+    }
+
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
+        margin-left: 10px;
+    }
+}
