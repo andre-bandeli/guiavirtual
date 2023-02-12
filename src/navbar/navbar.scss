@@ -18,6 +18,43 @@
                 width: 0;
                 height: 0;
             }
+            .Close {
+                width: 50px;
+                height: 50px;
+                margin-top: -10vh;
+                margin-left: 65vh;
+                z-index: 99999;
+                position: fixed;
+            }
+            .mob {
+                background: rgba(29, 29, 29, 0.35);
+                backdrop-filter: blur( 13.5px );
+                -webkit-backdrop-filter: blur( 13.5px );
+                border: none;
+                z-index: 999;
+                width: 80%;
+                height: 96vh;
+                margin-left: -1vh;
+                margin-top: -12vh;
+                position: fixed;
+                border-radius: 0;
+
+                li {
+
+                    margin-top: 5vh;
+                    margin-left: 5vh;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 22px;
+                        font-weight: 500;
+                    }
+                    a:hover {
+                        color: orangered;
+                    }
+                }
+            }
     }
     .logo {
             width: 35%;
@@ -81,6 +118,17 @@
                     width: 50px;
                     height: 50px;
                 }
+
+                .Close {
+                    margin-left: 70%;
+                }
+                .mob {
+                    margin-top: -12.5vh;
+
+                    li {
+                        margin-top: 7vh;
+                    }
+                }
             }
             .logo {
                 width: 50%;
@@ -104,6 +152,7 @@
 }
 @media (max-width: 1024px) {
     .navbar {
+        display: inline;
 
         .menu {
             margin-top: 3vh;
@@ -116,6 +165,24 @@
     }
 }
 
+@media (max-width: 1024px) and (max-height: 600px) {
+    .navbar {
+
+        .menu { 
+            margin-top: 2vh;
+            
+            .Hamburguer {
+                width: 35px;
+
+            }
+        }
+
+        .logo {
+            margin-top: 6vh;
+            height: 30%;
+        }
+    }
+}
 
 
 @media (max-width: 550px) {
@@ -126,6 +193,17 @@
             width: 35%;
             height: 30%;
         }
+        .menu {
+        
+            .Hamburguer {
+                width: 40px;
+                height: 40px;
+            }
+
+            .mob {
+                width: 80vh;
+            }
+    }
     }
 }
 
@@ -136,6 +214,21 @@
 
             width: 30%;
             height: 30%;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .navbar {
+        height: 20vh;
+        .logo {
+            visibility: hidden;
+            height: 5px;
+            img {
+                width: 0;
+                height: 0;
+                visibility: hidden;
+            }
         }
     }
 }

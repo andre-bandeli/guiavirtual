@@ -20,6 +20,10 @@ import React, { useEffect } from 'react';
 
 import Index from './home/Index';
 import Sobre from './sobre/Sobre'
+import Gravacoes from './gravacoes/Gravacoes';
+import SaudeColetiva from './saudeColetiva/SaudeColetiva';
+import Noticias from './noticias/Noticias';
+import Contatos from './contatos/Contatos';
 
 function App() {
 
@@ -30,13 +34,16 @@ function App() {
     let title = '';
     switch (location.pathname) {
       case '/sobre':
-        title = 'WS Sobre Nós';
+        title = 'Sobre a Pesquisa';
         break;
       case '/gravacoes':
         title = 'Gravações';
         break;
       case '/noticias':
         title = 'Noticias';
+        break;
+      case '/saudecoletiva':
+        title = 'Saúde Coletiva';
         break;
       case '/contatos':
         title = 'Contatos';
@@ -57,6 +64,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/sobre" element={<Sobre />} />
+        <Route path="/gravacoes" element={<Gravacoes />} />
+        <Route path="/saudecoletiva" element={<SaudeColetiva />} />
+        <Route path="/noticias" element={<Noticias />} />
+        <Route path="/contatos" element={<Contatos />} />
       </Routes>
     );
   //   <div className="App">

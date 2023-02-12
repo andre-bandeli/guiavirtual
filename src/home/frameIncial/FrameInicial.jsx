@@ -2,7 +2,6 @@ import React from 'react'
 import './frameInicial.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
 
-import cena1 from './cena1.png'
 
 export default function FrameInicial() {
   return (
@@ -20,7 +19,8 @@ export default function FrameInicial() {
                 Inayá Ananias Weijenborg, psicóloga e mestranda em Saúde Coletiva FCM/UNICAMP,
                 e editado por Rafael Marques da Silva, equipe da Coordenadoria de Apoio Acadêmico-CAAC/FCM/UNICAMP.
             </h3>
-            <button className='btn-iframe-share'>compartilhar</button>
+            <button className='btn-iframe-share'>
+              compartilhar</button>
           </div>
 
           <div className="iframe">

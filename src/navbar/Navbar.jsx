@@ -1,9 +1,8 @@
 import React from 'react'
 import './navbar.scss'
-import prp from './logo_prp.svg'
-import logo from './logo.png'
-import unicamp from './logo_unicamp.svg'
-import fcm from './fcm.png'
+import prp from './assets/logo_prp.svg'
+import unicamp from './assets/logo_unicamp.svg'
+import fcm from './assets/fcm.webp'
 
 import { Link } from "react-router-dom";
 import MobileNavigation from './MobileNavigation';
@@ -25,22 +24,22 @@ export default function Navbar() {
       <div className="nav">
         <ul>
           <li>
-              <Link to="/motocicletas">Sobre a pesquisa</Link>
+              <Link to="/">Introdução</Link>
           </li>
           <li>
-              <Link to="/motocicletas">Introdução</Link>
+              <Link to="/sobre">Sobre a pesquisa</Link>
           </li>
           <li>
-              <Link to="/motocicletas">Gravações</Link>
+              <Link to="/gravacoes">Gravações</Link>
           </li>
           <li>
-              <Link to="/motocicletas">Tipificação da violência</Link>
+              <Link to="/saudecoletiva">Saúde Coletiva</Link>
           </li>
           <li>
-              <Link to="/motocicletas">Noticias e conteúdos extras</Link>
+              <Link to="/noticias">Noticias e conteúdos extras</Link>
           </li>
           <li>
-              <Link to="/motocicletas">Contatos</Link>
+              <Link to="/contatos">Contatos</Link>
           </li>
           <li>
               <Link to="/motocicletas">Envie uma mensagem</Link>

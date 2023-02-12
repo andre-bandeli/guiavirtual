@@ -1,10 +1,10 @@
 
-.contatos {
+.contatosHome {
     width: 100%;
     height: auto;
     display: inline-block;
 
-    .containerContatos {
+    .containerContatosHome {
         width: 80%;
         height: 80%;
         margin: auto;
@@ -13,8 +13,8 @@
         margin-top: 5vh;
         margin-bottom: 10vh;
 
-        .containerBox {
-            width: 22%;
+        .containerBoxHome {
+            width: 32%;
             height: 80px;
             margin: auto;
             margin-top: 2vh;
@@ -38,6 +38,59 @@
                 opacity: .5;
             }
         
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    
+    .contatosHome {
+        .containerContatosHome {
+            .containerBoxHome {
+                h4 {
+                    font-size: 12px;
+                }
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 1vh;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    
+    .contatosHome {
+        .containerContatosHome {
+            .containerBoxHome {
+                width: 49%;
+                h4 {
+                    font-size: 12px;
+                    margin-top: 1.5vh;
+                    margin-left: 1vh;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 350px) {
+    
+    .contatosHome {
+        .containerContatosHome {
+            .containerBoxHome {
+                width: 90%;
+
+                img {
+                    margin-left: 3vh;
+                }
+                h4 {
+                    font-size: 12px;
+                    margin-top: 1.5vh;
+                    margin-left: 1vh;
+                }
+            }
         }
     }
 }

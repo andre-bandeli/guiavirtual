@@ -101,36 +101,31 @@
                 h3 {
                     margin-top: 1vh;
                     font-size: 16px;
+                    line-height: 20px;
     
                 }
                 h4 {
                     margin-top: 2vh;
+                    line-height: 30px;
                 }
     
-                .btn-iframe-share {
-    
-                }
             }
-            .iframe {
-           
-    
-                iframe {
-    
-                }
-            }
+
         }
     }
-    }
+}
 
 @media (max-width: 1024px) {
     
 .frameInicial {
+    height: auto;
     margin-top: 0vh;
 
     .containerIframeInicial {
 
         display: inline-block;
         width: 90%;
+        height: 70vh;
         margin-left: 5%;
 
         .text {
@@ -157,9 +152,10 @@
     
     .frameInicial {
         margin-top: 10vh;
+        height: auto;
     
         .containerIframeInicial {
-    
+            height: 70vh;
     
             .text {
                 .btn-iframe-share {

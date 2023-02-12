@@ -23,7 +23,7 @@ export default function Duvidas() {
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h' >
-                                            Como posso saber se sou elegível para um financiamento?
+                                            Como este guia é estruturado?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
@@ -38,7 +38,7 @@ export default function Duvidas() {
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h'>
-                                            Qual é o prazo máximo para pagamento de um financiamento?
+                                            O que é saúde coletiva?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
@@ -52,7 +52,7 @@ export default function Duvidas() {
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h'>
-                                            Existe algum tipo de juros aplicável aos financiamentos?
+                                            Qual a importância deste guia?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
@@ -65,7 +65,7 @@ export default function Duvidas() {
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h'>
-                                            Posso escolher a forma de pagamento do meu financiamento?
+                                           Onde posso acessar a pesquisa completa?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
@@ -79,7 +79,7 @@ export default function Duvidas() {
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h'>
-                                        Qual é o valor mínimo que posso financiar?
+                                        Como posso entrar em contato?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
@@ -92,7 +92,7 @@ export default function Duvidas() {
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h'>
-                                            É necessário apresentar garantias para conseguir um financiamento?
+                                            A quem esse guia se destina?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>

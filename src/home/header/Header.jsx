@@ -2,6 +2,7 @@ import React from 'react'
 import './header.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from "react-router-dom";
 
 import {primeiroSlider} from './slides'
 import { useState } from 'react';
@@ -25,7 +26,7 @@ export default function Header() {
                   <h2>{d.segundoTexto}</h2>
                   <a href="#produtos">
                   <button className='btn-header'>
-                    ver ofertas
+                      <Link to={d.link}>ver mais</Link>
                   </button> </a>
                 </div>
             </Carousel.Item>

@@ -53,3 +53,39 @@
         }
     }
 }
+
+@media (max-width: 550px) {
+    
+.filterCategoria {
+
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 15vh;
+    font-family: 'Montserrat', sans-serif;
+
+
+    .filter {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-left: 2.5vh;
+        margin-top: 10vh;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            margin-left: 0vh;
+            width: 100%;
+
+            li {
+                width: 45%;
+            }
+        }
+
+    }
+
+}
+}

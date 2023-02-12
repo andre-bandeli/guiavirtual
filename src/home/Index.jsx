@@ -18,7 +18,7 @@ import Footer from '../footer/Footer'
 
 
 import InicialCards from '../home/cards/InicialCards';
-import SegundoFrame from './frameIncial/TerceiroFrame';
+import SegundoFrame from './frameIncial/SegundoFrame';
 import CarouselTextConclusao from './carousel/CarouselTextConclusao';
 import TerceiroFrame from './frameIncial/TerceiroFrame';
 
@@ -28,7 +28,7 @@ export default function Index() {
         <NavSuperior/>
         <Navbar/>
         <Header/>
-        {/* <InicialCards/>
+        <InicialCards/>
         <ApresentacaoPesquisa/>
         <FrameInicial/>
         <CarouselText/>
@@ -42,7 +42,7 @@ export default function Index() {
         <Poema/>
         <Duvidas/>
         <Contatos/>
-        <Footer/> */}
+        <Footer/>
 
     </div>
   )

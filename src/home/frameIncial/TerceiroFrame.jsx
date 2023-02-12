@@ -2,8 +2,7 @@ import React from 'react'
 import './frameInicial.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
 
-import video from './video.mp4'
-import cena2 from './cena2.png'
+
 
 export default function TerceiroFrame() {
   return (

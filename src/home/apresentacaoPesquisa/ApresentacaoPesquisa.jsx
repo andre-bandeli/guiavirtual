@@ -2,6 +2,7 @@ import React from 'react'
 import './apresentacaoPesquisa.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
 
+import { Link } from "react-router-dom";
 
 export default function ApresentacaoPesquisa() {
 
@@ -22,22 +23,15 @@ export default function ApresentacaoPesquisa() {
               </p>
               <div className="container">
                   <button className='btn-info'>
-                    sobre a pesquisa
+                      <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Sobre a Pesquisa</Link>
                   </button>
                   <button className='btn-info'>
-                    participantes
+                  
+                      <Link to="https://www.fcm.unicamp.br/fcm/pesquisa/publicacoes">Publicações</Link>
                   </button>
                   <button className='btn-info'>
-                    saúde coletiva
-                  </button>
-                  <button className='btn-info'>
-                    resultados e discussões
-                  </button>
-                  <button className='btn-info'>
-                    premiações e citações
-                  </button>
-                  <button className='btn-info'>
-                    entre em contato
+                
+                      <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces/projetos">Projetos</Link>
                   </button>
               </div>
               <p>
@@ -58,14 +52,13 @@ export default function ApresentacaoPesquisa() {
                 <div className="textIntroducao">
                       <h3>Conheça mais sobre a pesquisa</h3>
                       <h4>
-                        It is a long established fact that a reader will be distracted by the 
-                        readable content of a page when looking at its layout. The point of using 
-                        Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
-                         to using 'Content here, content here', making it look like readable English. Many 
-                         desktop publishing packages and web page editors now use.
+                      O grupo de pesquisa "Saúde Coletiva e Saúde Mental: Interfaces", sediado no Departamento de Saúde Coletiva da Universidade Estadual de Campinas,
+                      tem como objetivo articular estudos, reflexões, pesquisas e formação na área da Saúde Coletiva e Saúde Mental. Além disso, o grupo busca realizar 
+                      discussões teóricas sobre as políticas públicas de 
+                      saúde mental, incluindo a avaliação de Centros de Atenção Psicossocial (Caps) e novos arranjos na atenção básica em saúde.
                       </h4>
                       <button className='btn-introducao'>
-                          acessar pesquisa
+                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Sobre a Pesquisa</Link>  
                       </button>
                 </div>
           </div>

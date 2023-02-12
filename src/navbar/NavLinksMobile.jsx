@@ -17,49 +17,27 @@ const NavLinksMobile = () => {
 
     return ( 
         <ul className="mob">
-            <li  className={active === '/' ? 'active' : ''}>
-                <div className='icon'>
-                    <img src=""></img>
-                </div>
-                <Link to="/">Home</Link>
-            </li>
-            <li className={active === '/motocicletas' ? 'active' : ''}>
-            <div className='icon'>
-                <img src=""></img>
-                </div>
-                <Link to="/motocicletas">Motocicletas</Link>
-            </li>
-            <li className={active === '/veiculos' ? 'active' : ''}>
-            <div className='icon'>
-                <img src=""></img>
-                </div>
-                <a href="/veiculos"> Automoveis</a>
-            </li>
-            <li className={active === '/financiamentos' ? 'active' : ''}>
-            <div className='icon'>
-            <img src=""></img>
-                </div>
-                <a href="/financiamentos"> Financiamentos</a>
-            </li>
-            <li className={active === '/sobre' ? 'active' : ''}>
-            <div className='icon'>
-                <img src=""></img>
-                </div>
-                 <Link to="/sobre">Sobre Nós</Link>
-            </li>
-            <li className={active === '/contato' ? 'active' : ''}>
-            <div className='icon'>
-                <img src=""></img>
-                </div>
-                <a href="/contato">Contato</a>
-            </li>
-            <li className={active === '/login' ? 'active' : ''}>
-            <div className='icon'>
-                <img src=""></img>
-                </div>
-                <a href="/login">Área do Cliente</a>
-            </li>
-            
+          <li>
+              <Link to="/">Introdução</Link>
+          </li>
+          <li>
+              <Link to="/sobre">Sobre a pesquisa</Link>
+          </li>
+          <li>
+              <Link to="/gravacoes">Gravações</Link>
+          </li>
+          <li>
+              <Link to="/saudecoletiva">Saúde Coletiva</Link>
+          </li>
+          <li>
+              <Link to="/noticias">Noticias e conteúdos extras</Link>
+          </li>
+          <li>
+              <Link to="/contatos">Contatos</Link>
+          </li>
+          <li>
+              <Link to="/motocicletas">Envie uma mensagem</Link>
+          </li>   
     </ul>
      );
     

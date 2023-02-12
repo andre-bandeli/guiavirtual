@@ -70,10 +70,14 @@
         left: 0; right: 0; top: 50%; transform: translateY(-70%);
     }
     .headerContainer .carouselContainer .carouselBootstrap .carouselItem .carouselItemContent h1{
+        font-size: 45px;
         width: 70%;
+        margin-left: 5vh;
     }
     .headerContainer .carouselContainer .carouselBootstrap .carouselItem .carouselItemContent h2{
         width: 80%;
+        font-size: 35px;
+        margin-left: 5vh;
     }
 }
 

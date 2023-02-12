@@ -1,0 +1,177 @@
+
+
+.noticias {
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+
+
+    .containerNoticias {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20vh;
+
+        .container-md-noticias {
+
+            width: 85%;
+            height: 90%;
+            margin: auto;
+            margin-top: 5vh;
+            display: flex;
+
+            .news {
+                width: 70%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                h2 {
+
+                    font-size: 18px;
+                    width: 80%;
+                    text-align: left;
+                    font-weight: 300;
+                    margin-bottom: 5vh;
+                    line-height: 25px;
+                }
+
+                .boxNews {
+                    width: 32%;
+                    height: 20vh;
+                    margin: auto;
+                    margin-left: 0;
+                    margin-top: 2vh;
+                    border-radius: 1px;
+                    background-color: rgb(255, 255, 255);
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 1px;
+                        opacity: .9;
+                    }
+                    img:hover {
+                        opacity: 1;
+                        transition: .4s ease;
+    
+                    }
+
+                    .link {
+                        width: 15%;
+                        height: auto;
+                        margin-top: -12vh;
+                        margin-left: 2vh;
+                        background-color: rgba(27, 27, 27, 0.479);
+                        position: absolute;
+
+                        a {
+                            color: white;
+                            font-weight: bold;
+                        }
+                    }
+
+                    
+                }
+            }
+            .relacionados{
+                width: 25%;
+                height: 100%;
+                margin-left: 5%;
+                background-color: whitesmoke;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+                margin-top: -5vh;
+
+                h2 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-left: 3vh;
+                    margin-top: 5vh;
+                }
+
+                ul {
+
+                    width: 90%;
+                    height: auto;
+                    margin: auto;
+                    margin-top: 5vh;
+
+                    li {
+                        width: 100%;
+                        height: 100px;
+                        background-color: rgb(253, 253, 247);
+                        box-shadow: rgba(51, 51, 51, 0.1) 0px 1px 3px 0px, rgba(65, 64, 64, 0.06) 0px 1px 2px 0px;
+                        border-radius: 5px;
+                        margin: auto;
+                        margin-left: -1.5vh; margin-top: 5vh;
+                        display: flex;
+
+                        .icon {
+                            width: 25%;
+                            height: 100%;
+                            display: flex;
+
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                margin: auto;
+                            }
+                        }
+
+                        .text {
+                            width: 70%;
+                            height: 100%;
+                            display: flex;
+
+                            h3 {
+                                font-size: 14px;
+                                margin: auto;
+                            }
+                        }
+
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    
+
+    .noticias {
+        height: auto;
+    
+        .containerNoticias {
+           height: auto;
+            .container-md-noticias {
+                width: 90%;
+                display: inline;
+                
+                .news {
+                    width: 85%;
+                    margin: auto;
+                }
+                .relacionados{
+                    width: 85%;
+                    height: auto;
+                    margin-top: 0vh;
+    
+                    h2 {
+    
+                        padding-top: 25px;
+                    }
+    
+                    ul {
+                        margin-top: 2vh;
+                        padding-bottom: 55px;
+                    
+                    }
+                }
+            }
+        }
+    }
+    }

@@ -59,7 +59,7 @@
             width: 50%;
             height: 100%;
             border-radius: 10px;
-            background-image: url(./pesquisa.png);
+            background-image: url(./pesquisa.webp);
             background-position: center;
             background-size: cover;
             transition: transform 0.3s ease;
@@ -126,6 +126,16 @@
     .apresentacaoPesquisa {
         height: auto;
 
+        .apresentacaoPesquisaContainer {
+
+            .container {
+
+                .btn-info {
+                    font-size: 14px;
+                }
+            }
+        }
+
         .textIntroducaoContainer {
             height: 70vh;
             display: inline-block;
@@ -154,11 +164,37 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    .apresentacaoPesquisa {
+
+        .apresentacaoPesquisaContainer {
+
+            .container {
+                .btn-info {
+                    font-size: 12px;
+                }
+            }
+        }
+        .textIntroducaoContainer .textIntroducao .btn-introducao {
+            margin-left: 40px;
+        }
+    }
+}
+
 @media (max-width: 550px) {
 
-    .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .container .btn-info {
+        height: 60px;
+        margin-top: 2vh;
+    }
+    .apresentacaoPesquisa .apresentacaoPesquisaContainer .container .btn-info {
+        font-size: 10px;
+    }
+    .apresentacaoPesquisa .textIntroducaoContainer .textIntroducao .btn-introducao {
         margin-left: 20px;
     }
+
 }
 @media (max-width: 450px) {
     .apresentacaoPesquisa .apresentacaoPesquisaContainer .textIntroducaoContainer .textIntroducao .btn-introducao {

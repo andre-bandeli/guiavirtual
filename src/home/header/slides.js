@@ -1,6 +1,6 @@
-import primeiraImagem from './fcm.jpg'
-import segundaImagem from './fcm2.jpg'
-import terceiraImagem from './fcm5.jpg'
+import primeiraImagem from './assets/fcm.webp'
+import segundaImagem from './assets/fcm2.webp'
+import terceiraImagem from './assets/fcm5.webp'
 
 
 export const primeiroSlider = [
@@ -23,8 +23,8 @@ export const primeiroSlider = [
         id: 3,
         imgSrc:terceiraImagem,
         imgAlt: 'Terceiro slider: imagem de um carro branco em uma estrada como background',
-        primeiroTexto: 'Guia virtual de atendimento à mulheres vítimas de violência',
-        span: "STORE",
-        segundoTexto: 'Guia virtual de atendimento à mulheres vítimas de violência. Experimente a liberdade da estrada com um carro ou moto novo.'
+        primeiroTexto: 'Ainda seremos felizes?',
+        link: 'http://www.hildahilst.com.br/portfolio/ainda-seremos-felizes',
+        segundoTexto: 'Instituto Hilda Hilst. Crônica publicada originalmente no jornal Correio Popular em 1995.'
     }
 ];

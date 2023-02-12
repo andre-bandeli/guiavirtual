@@ -43,7 +43,7 @@
             width: 25px;
             height: 25px;
             border-radius: 50%;
-            background-image: url(./br.png);
+            background-image: url(./assets/br.webp);
             background-size: cover;
             background-position: center;
         }
@@ -52,7 +52,7 @@
             width: 25px;
             height: 25px;
             border-radius: 50%;
-            background-image: url(./eua.png);
+            background-image: url(./assets/eua.webp);
             background-size: cover;
             background-position: center;
         }
@@ -61,7 +61,7 @@
             width: 25px;
             height: 25px;
             border-radius: 50%;
-            background-image: url(./esp.png);
+            background-image: url(./assets/esp.webp);
             background-size: cover;
             background-position: center;
         }
@@ -76,6 +76,7 @@
 
 @media (max-width: 1024px) {
     .navSuperiorContainer {
+        position: fixed;
         display: inline-block;
         ul {
             width: 100%;

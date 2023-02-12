@@ -1,16 +1,16 @@
 import React from 'react'
 import './noticias.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
-import imagem3 from './imagem3.jpg'
+import imagem3 from './assets/imagem3.webp'
 
 
 export default function Noticias() {
   return (
-    <div className='noticias'>
+    <div className='noticiasHome'>
         <TitleContainer 
             title="Conteúdos Extras" 
             subtitle="Está dando para criar imagens, rememorar cenas ou remeter a vivências no seu ambiente de trabalho?" />
-        <div className="containerNoticias">
+        <div className="containerNoticiasHome">
 
             <div class="news-grid">
                 <div class="news-item">

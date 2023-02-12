@@ -4,6 +4,7 @@ import instagran from './insta.webp'
 import linkedin from './in.webp'
 import twitter from './twitter.webp'
 
+import { Link } from "react-router-dom";
 
 
 export default function Footer() {
@@ -15,57 +16,46 @@ export default function Footer() {
         <div className="containerFooter">
 
            <div className="boxFooter">
-            <h2>Instituccional</h2>
+            <h2>Institucional</h2>
             <ul>
-                    {/* <li>
+                    <li>
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/login">Login</Link>
+                        <Link to="/login">Sobre a pesquisa</Link>
                     </li>
                     <li>
-                        <Link to="/sobre">Sobre</Link>
+                        <Link to="/sobre">Gravações</Link>
                     </li>
                     <li>
-                        <Link to="/financiamentos">Financiamentos</Link>
+                        <Link to="/financiamentos">Saúde coletiva</Link>
                     </li>
                     <li>
-                        <Link to="/contato">Contatos</Link>
+                        <Link to="/contato">Notícias e Conteúdos extras</Link>
                     </li>
                     <li>
-                        <Link to="/motocicletas">Motocicletas</Link>
+                        <Link to="/motocicletas">Contatos</Link>
                     </li>
                     <li>
-                        <Link to="/veiculos">Veículos</Link>
-                    </li> */}
+                        <Link to="/veiculos">Envie uma mensagem</Link>
+                    </li>
             </ul>
 
            </div>
            <div className="boxFooter">
-            <h2>Produtos</h2>
+            <h2>Mestrado</h2>
            <ul>
-                    {/* <li>
-                    <Link to="/motocicletas">Motocicletas</Link>
+                    <li>
+                    <Link to="/">Mestrado na Unicamp</Link>
                  
                     </li>
                     <li>
-                        <Link to="/veiculos">Veículos</Link>
+                        <Link to="/">Mestrado na FCM</Link>
                     </li>
                     <li>
-                        <Link to="/">Veículos 0km</Link>
+                        <Link to="/">Ética em pesquisa</Link>
                     </li>
-                    <li>
-                        <Link to="/financiamentos">Simulações</Link>
-                    </li>
-                    <li>
-                        <Link to="/">Condições especiais</Link>
-                    </li>
-                    <li>
-                        <Link to="/">Produtos e acessórios</Link>
-                    </li>
-                    <li>
-                    <Link to="/">Manutenções</Link>
-                    </li> */}
+
             </ul>
 
             
@@ -74,41 +64,36 @@ export default function Footer() {
             <h2>Contato</h2>
             <ul>
                     <li>
-                        Francisco Matarazzo Avenue, 45112, Jd. Retirantes. 
+                        Universidade Estadual de Campinas. Campus Barão Geraldo.
                     </li>
                     <li>
-                       São Paulo, Brasil.
+                       Campinas, São Paulo, Brasil.
                     </li>
                     <li>
-                        (11) 2664-4588 | (11) 2256-4785
-                    </li>
-                    <li>
-                        Atendimento: seg à sex: 08h00 às 19h00
+                       Site desenvolvido por André L. Bandeli
                     </li>
                     <li className='redes'>
                         <img src={twitter} alt="ícone do twitter" width='25px' height='25px' />
                         <img src={instagran} alt="ícone do instagran" width='25px' height='25px' />
-                        <img src={linkedin} alt="ícone do linkedin" width='25px' height='25px' />
                     </li>
                    
             </ul>
 
             </div>
             <div className="boxFooter">
-            <h2>Carreiras</h2>
+            <h2>Saiba mais</h2>
             <ul>
-                    <li>
-                        Trabalhe Conosco
+            <li>
+                    <Link to="/">Saúde Coletiva</Link>
+                 
                     </li>
                     <li>
-                       Nosso Time
+                        <Link to="/">Resultados e DIscussões</Link>
                     </li>
                     <li>
-                        Programa de aceleramento
+                        <Link to="/">Premiações</Link>
                     </li>
-                    <li>
-                        Politíca de contratação
-                    </li>
+
             </ul>
             </div>
         </div>

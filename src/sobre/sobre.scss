@@ -1,0 +1,166 @@
+
+
+.sobre {
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+
+
+    .containerSobre {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10vh;
+
+        .container-md-sobre {
+
+            width: 85%;
+            height: 90%;
+            margin: auto;
+            margin-top: 10vh;
+            display: flex;
+
+            .text {
+                width: 70%;
+                height: 100%;
+
+                h2 {
+
+                    font-size: 18px;
+                    width: 80%;
+                    text-align: left;
+                    font-weight: 300;
+                    margin-bottom: 5vh;
+                    line-height: 25px;
+                }
+            }
+            .relacionados{
+                width: 25%;
+                height: auto;
+                margin-bottom: 5vh;
+                margin-left: 5%;
+                background-color: whitesmoke;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+                margin-top: -5vh;
+
+                h2 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-left: 3vh;
+                    margin-top: 5vh;
+                }
+
+                ul {
+
+                    width: 90%;
+                    height: auto;
+                    margin: auto;
+                    margin-top: 5vh;
+
+                    li {
+                        width: 100%;
+                        height: 100px;
+                        background-color: rgb(253, 253, 247);
+                        box-shadow: rgba(51, 51, 51, 0.1) 0px 1px 3px 0px, rgba(65, 64, 64, 0.06) 0px 1px 2px 0px;
+                        border-radius: 5px;
+                        margin: auto;
+                        margin-left: -1.5vh; margin-top: 5vh;
+                        display: flex;
+
+                        .icon {
+                            width: 25%;
+                            height: 100%;
+                            display: flex;
+
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                margin: auto;
+                            }
+                        }
+                        .text {
+                            width: 70%;
+                            height: 100%;
+                            display: flex;
+
+                            h3 {
+                                font-size: 14px;
+                                margin: auto;
+                            }
+                        }
+
+                        @media (max-width: 1440px) {
+                            .icon {
+
+                                width: 0;
+
+                                img {
+                                    width: 0px;
+                                }
+                            }
+
+                            .text {
+                                margin-left: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 1440px) {
+                .relacionados {
+                    height: 110vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    
+
+.sobre {
+ 
+
+
+    .containerSobre {
+       
+
+        .container-md-sobre {
+            width: 90%;
+            display: inline;
+
+            .text {
+                width: 85%;
+                height: 100%;
+                margin: auto;
+
+                h2 {
+                    font-size: 18px;
+                    width: 80%;
+                    text-align: left;
+                    font-weight: 300;
+                    margin-bottom: 5vh;
+                    line-height: 25px;
+                    margin-top: 5vh;
+                }
+            }
+            .relacionados{
+                width: 85%;
+                height: auto;
+                margin-top: 0vh;
+
+                h2 {
+
+                    padding-top: 25px;
+                }
+
+                ul {
+                    margin-top: 2vh;
+                    padding-bottom: 55px;
+                
+                }
+            }
+        }
+    }
+}
+}

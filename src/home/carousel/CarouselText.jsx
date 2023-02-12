@@ -3,7 +3,6 @@ import './carouselText.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import TitleContainer from '../titleContainer/TitleContainer'
-
 import {primeiroSlider} from './slidesCarousel'
 import { useState } from 'react';
 

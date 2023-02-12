@@ -27,7 +27,28 @@
                 text-align: left;
                 font-weight: 200;
                 line-height: 30px;
+
+                b {
+                    color: rgb(68, 67, 67);
+                }
             }
         }
     }
+}
+
+@media (max-width: 550px) {
+    
+.poema {
+    margin-top: 20vh;
+
+    .containerPoema {
+        display: inline-block;
+        width: 100%;
+        .txt {
+            width: 100%;
+            margin-left: 0;
+
+        }
+    }
+}
 }
