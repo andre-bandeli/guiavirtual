@@ -5,8 +5,12 @@ import './saudeColetiva.scss'
 import Footer from '../footer/Footer'
 import TitleContainerSobre from './titleContainer/TitleContainerContainer';
 
-import news from './news.png'
+import { Link } from "react-router-dom";
 
+
+import news from './news.png'
+import site from './site.png'
+import pdf from './pdf.png'
 
 export default function SaudeColetiva() {
   return (
@@ -50,10 +54,30 @@ export default function SaudeColetiva() {
                     <ul>
                       <li>
                         <div className="icon">
-                            <img src={news} alt="" />
+                            <img src={site} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Conheça o mestrado em saúde coletiva na Unicamp</h3>
+                          <Link to="http://www3.prpg.gr.unicamp.br/sites/site1/index.php/mestradodoutorado/">Conheça o mestrado em saúde coletiva na Unicamp</Link>
+
+                         </div>
+                      </li>
+                      <li>
+                         <div className="icon">
+                            <img src={site} alt="" />
+                        </div>
+                         <div className="text">
+                          <h3></h3>
+                          <Link to="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva">Saúde Coletiva: eventos (site da Faculdade de Ciências Médicas)</Link>
+
+                         </div>
+                      </li>
+                      <li>
+                         <div className="icon">
+                            <img src={pdf} alt="" />
+                        </div>
+                         <div className="text">
+                          <Link to="/"> Protocolo do fluxo intersetorial de atendimento à mulher vítima de violência</Link>
+                          
                          </div>
                       </li>
                       <li>
@@ -61,7 +85,8 @@ export default function SaudeColetiva() {
                             <img src={news} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Saúde Coletiva: eventos (site da Faculdade de Ciências Médicas)</h3>
+                          <Link to="https://www.graduseditora.com/_files/ugd/c7d661_e05ce4f966e844c79715bd6bb94ccdad.pdf">Questões Sobre Gênero: novos paradigmas e horizontes</Link>
+
                          </div>
                       </li>
                       <li>
@@ -69,23 +94,8 @@ export default function SaudeColetiva() {
                             <img src={news} alt="" />
                         </div>
                          <div className="text">
-                          <h3> Manual para Atendimento às Vítimas de Violência na Rede de Saúde [...]</h3>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <h3>Artigo de Minayo. Publicado em: 18/02/2020</h3>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                         <h3>Violência de Gênero. Publicado em: 18/02/2020</h3>
+                         <Link to="https://bvsms.saude.gov.br/bvs/publicacoes/manual_atendimento_vitimas_violencia_saude_publica_DF.pdf"> Manual para Atendimento às Vítimas de Violência na Rede de Saúde [...]</Link>
+
                          </div>
                       </li>
                     </ul>

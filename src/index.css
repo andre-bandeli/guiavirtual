@@ -64,4 +64,6 @@ table {
 
 body {
 	background-image: linear-gradient(to right top, #f1f4ea, #f4f7ed, #f7f9f1, #fafcf4, #fdfff8);
+	overflow-x: hidden;
 }
+

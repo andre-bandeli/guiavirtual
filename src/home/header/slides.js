@@ -9,15 +9,16 @@ export const primeiroSlider = [
       imgSrc: primeiraImagem,
       imgAlt: 'Primeiro slider: imagem de um carro cinza em uma estrada como background',
       primeiroTexto: 'Guia virtual de atendimento à mulheres vítimas de violência',
-      segundoTexto: 'Guia virtual de atendimento à mulheres vítimas de violência. Experimente a liberdade da estrada com um carro ou moto novo.'
+      link: '/#apresentacao',
+      segundoTexto: 'Um guia virtual para atendimento de mulheres vítimas de violência como produto do Mestrado em Saúde Coletiva'
     },
     {
         id: 2,
         imgSrc: segundaImagem,
         imgAlt: 'Guia virtual de atendimento à mulheres vítimas de violência',
-        primeiroTexto: 'Guia virtual de atendimento à mulheres vítimas de violência',
-        span: "STORE",
-        segundoTexto: 'Guia virtual de atendimento à mulheres vítimas de violência. Experimente a liberdade da estrada com um carro ou moto novo.'
+        primeiroTexto: 'Memorial Covid Unicamp: espaço na Universidade para acolhimento e homenagens',
+        link: 'https://www.unicamp.br/unicamp/noticias/2021/12/03/memorial-covid-unicamp-espaco-na-universidade-para-acolhimento-e-homenagens',
+        segundoTexto: 'Projeto Memorial Covid Unicamp: uma homenagem às vítimas da pandemia e um compromisso com o conhecimento.'
     },
     {
         id: 3,

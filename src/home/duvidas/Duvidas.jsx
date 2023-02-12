@@ -20,20 +20,6 @@ export default function Duvidas() {
         <div className="container-duvidas">
         
         <Accordion className='acordion'>
-                                <AccordionItem className='ac'>
-                                    <AccordionItemHeading className='head'>
-                                        <AccordionItemButton className='h' >
-                                            Como este guia é estruturado?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <h3>
-                                        Para saber se você é elegível para um financiamento, basta entrar em contato com a
-                                         instituição financeira e informar seus dados. Eles farão uma avaliação e informarão se você atende aos requisitos.
-                                        </h3>
-
-                                    </AccordionItemPanel>
-                                </AccordionItem>
 
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
@@ -43,8 +29,15 @@ export default function Duvidas() {
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
                                         <h3>
-                                            O prazo máximo para pagamento de um financiamento varia de 
-                                            acordo com a instituição financeira e o valor financiado. Em média, pode ser de até 60 meses.
+                                        A Saúde Coletiva é uma área do conhecimento que tem como objetivo compreender e atuar nas
+                                         questões relacionadas à saúde da população de forma ampla e integrada. Ela se baseia na ideia 
+                                         de que a saúde é um direito de todos e deve ser garantido de forma equânime, independentemente da 
+                                         raça, gênero, classe social ou outras características. A Saúde Coletiva abrange desde a prevenção de 
+                                         doenças até a atenção às necessidades de saúde da população, passando pela promoção da saúde, proteção 
+                                         social e atenção às desigualdades sociais. Ela busca trabalhar com a população e os profissionais de saúde 
+                                         de forma colaborativa para garantir que as políticas e ações de saúde sejam eficazes, eficientes e 
+                                        justas para todos. Em resumo, a Saúde Coletiva é uma abordagem multidisciplinar e participativa 
+                                        para garantir a saúde de toda a população.
                                         </h3>
                                     </AccordionItemPanel>
                                 </AccordionItem>
@@ -57,8 +50,10 @@ export default function Duvidas() {
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
                                         <h3>
-                                        Sim, os financiamentos geralmente possuem juros aplicados, que podem 
-                                        ser fixos ou variáveis. É importante comparar as taxas de juros antes de escolher uma instituição financeira.
+                                        Este guia é destinado a servir como um instrumento de apoio à formação 
+                                        continuada dos profissionais, proporcionando-lhes reflexões importantes sobre o 
+                                        tema da violência de gênero e acesso a materiais bibliográficos e narrativas produzidas durante a pesquisa de campo.
+                                         Além disso, ele combina as dimensões técnica e afetiva em um material de fácil acesso e utiliza a tecnologia para veicular esse conhecimento de forma efetiva.
                                         </h3>
                                     </AccordionItemPanel>
                                 </AccordionItem>     
@@ -70,25 +65,11 @@ export default function Duvidas() {
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
                                         <h3>
-                                        Sim, a forma de pagamento é uma escolha do solicitante do 
-                                        financiamento. É possível optar por pagamentos mensais, semanais
-                                         ou até quinzenais, dependendo da instituição financeira.
+                                       A pesquisa completa pode ser acessada <a href="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces"> cliacando aqui</a> ou você pode acessar nossa página 'Sobre a pesquisa' para saber mais.
                                         </h3>
                                     </AccordionItemPanel>
                                 </AccordionItem>     
-                                <AccordionItem className='ac'>
-                                    <AccordionItemHeading className='head'>
-                                        <AccordionItemButton className='h'>
-                                        Como posso entrar em contato?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <h3>
-                                        O valor mínimo que você pode financiar varia de acordo 
-                                        com a instituição financeira. Em geral, é possível financiar valores a partir de R$ 1.000,00.
-                                        </h3>
-                                    </AccordionItemPanel>
-                                </AccordionItem>     
+                              
                                 <AccordionItem className='ac'>
                                     <AccordionItemHeading className='head'>
                                         <AccordionItemButton className='h'>
@@ -97,10 +78,8 @@ export default function Duvidas() {
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
                                         <h3>
-                                        Depende da instituição financeira. Algumas exigem garantias, como imóveis ou veículos, 
-                                        enquanto outras podem oferecer financiamentos sem garantias, mas com juros mais elevados. É
-                                         importante informar-se antes de solicitar o financiamento.
-
+                                        Em resumo, este guia é destinado a todos os profissionais que 
+                                        trabalham com o atendimento às situações de violência de gênero, e que buscam aprimorar sua formação e conhecimento sobre o tema.
                                         </h3>
                                     </AccordionItemPanel>
                                 </AccordionItem>               

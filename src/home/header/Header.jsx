@@ -24,10 +24,10 @@ export default function Header() {
               <div className="carouselItemContent">
                   <h1>{d.primeiroTexto}</h1>
                   <h2>{d.segundoTexto}</h2>
-                  <a href="#produtos">
+ 
                   <button className='btn-header'>
-                      <Link to={d.link}>ver mais</Link>
-                  </button> </a>
+                    <a href={d.link}>ver mais</a>
+                  </button> 
                 </div>
             </Carousel.Item>
           ))}

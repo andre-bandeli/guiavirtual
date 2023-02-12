@@ -23,6 +23,8 @@ import noticia7 from '../home/noticias/assets/noticia7.png'
 import noticia8 from '../home/noticias/assets/noticia8.png'
 
 import pdf from './pdf.png'
+import contato from './contato.png'
+import mensagem from './mensagem.png'
 
 
 export default function Noticias() {
@@ -127,31 +129,26 @@ export default function Noticias() {
                             <img src={pdf} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</h3>
+                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Conheça mais sobre a pesquisa clicando aqui</Link>
+
                          </div>
                       </li>
                       <li>
                          <div className="icon">
-                            <img src={pdf} alt="" />
+                            <img src={mensagem} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</h3>
+                          <Link to="/mensagem">Em caso de dúvidas, envie uma mensagem</Link>
+
                          </div>
                       </li>
                       <li>
                          <div className="icon">
-                            <img src={pdf} alt="" />
+                            <img src={contato} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</h3>
-                         </div>
-                      </li>
-                      <li>
-                         <div className="icon">
-                            <img src={news} alt="" />
-                        </div>
-                         <div className="text">
-                          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</h3>
+                          <Link to="/contatos">Confira contatos que podem ser úteis</Link>
+
                          </div>
                       </li>
                       <li>
@@ -159,7 +156,16 @@ export default function Noticias() {
                             <img src={news} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit [...]</h3>
+                          <Link to="/">Casos de violência contra mulher aumentam na pandemia [...]</Link>
+
+                         </div>
+                      </li>
+                      <li>
+                         <div className="icon">
+                            <img src={news} alt="" />
+                        </div>
+                         <div className="text">
+                          <Link to="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres">Politica Nacional de Enfrentamento à Violência [...]</Link>
                          </div>
                       </li>
                     </ul>

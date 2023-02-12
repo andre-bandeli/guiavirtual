@@ -5,10 +5,12 @@ import './sobre.scss'
 import Footer from '../footer/Footer'
 import TitleContainerSobre from './titleContainer/TitleContainerContainer';
 
+import { Link } from "react-router-dom";
+
+
 import news from './news.png'
 import contato from './contato.png'
 import mensagem from './mensagem.png'
-import mestre from './mestre.png'
 import pdf from './pdf.png'
 
 export default function Sobre() {
@@ -51,7 +53,8 @@ export default function Sobre() {
                             <img src={pdf} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Conheça mais sobre a pesquisa clicando aqui</h3>
+                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Conheça mais sobre a pesquisa clicando aqui</Link>
+
                          </div>
                       </li>
                       <li>
@@ -59,7 +62,8 @@ export default function Sobre() {
                             <img src={mensagem} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Em caso de dúvidas, envie uma mensagem</h3>
+                          <Link to="/mensagem">Em caso de dúvidas, envie uma mensagem</Link>
+
                          </div>
                       </li>
                       <li>
@@ -67,7 +71,8 @@ export default function Sobre() {
                             <img src={contato} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Confira contatos que podem ser úteis</h3>
+                          <Link to="/contatos">Confira contatos que podem ser úteis</Link>
+
                          </div>
                       </li>
                       <li>
@@ -75,7 +80,8 @@ export default function Sobre() {
                             <img src={news} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Casos de violência contra mulher aumentam na pandemia [...]</h3>
+                          <Link to="/">Casos de violência contra mulher aumentam na pandemia [...]</Link>
+
                          </div>
                       </li>
                       <li>
@@ -83,7 +89,7 @@ export default function Sobre() {
                             <img src={news} alt="" />
                         </div>
                          <div className="text">
-                          <h3>Politica Nacional de Enfrentamento à Violência [...]</h3>
+                          <Link to="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres">Politica Nacional de Enfrentamento à Violência [...]</Link>
                          </div>
                       </li>
                     </ul>

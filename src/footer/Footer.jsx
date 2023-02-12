@@ -1,8 +1,7 @@
 import React from 'react'
 import './style.css'
-import instagran from './insta.webp'
-import linkedin from './in.webp'
-import twitter from './twitter.webp'
+import git from './git.png'
+import linkedin from './in.png'
 
 import { Link } from "react-router-dom";
 
@@ -70,11 +69,17 @@ export default function Footer() {
                        Campinas, São Paulo, Brasil.
                     </li>
                     <li>
+                       Inaya . Mestre em Psicologia
+                    </li>
+                    <li>
                        Site desenvolvido por André L. Bandeli
                     </li>
                     <li className='redes'>
-                        <img src={twitter} alt="ícone do twitter" width='25px' height='25px' />
-                        <img src={instagran} alt="ícone do instagran" width='25px' height='25px' />
+                    
+                    <Link to="https://www.linkedin.com/in/andrebandeli/">
+                        <img src={linkedin} alt="ícone do twitter" width='25px' height='25px' /></Link>
+                    <Link to="https://github.com/andre-bandeli">
+                        <img src={git} alt="ícone do instagran" width='25px' height='25px' /></Link>
                     </li>
                    
             </ul>

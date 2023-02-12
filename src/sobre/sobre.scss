@@ -82,9 +82,11 @@
                             height: 100%;
                             display: flex;
 
-                            h3 {
+                            a {
                                 font-size: 14px;
+                                text-decoration: none;
                                 margin: auto;
+                                color: black;
                             }
                         }
 
