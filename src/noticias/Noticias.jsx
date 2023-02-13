@@ -85,7 +85,7 @@ export default function Noticias() {
                     <div className="boxNews">
                           <img src={imagem3} alt="" />
                        <div className='link'>
-                            <Link to="https://www.institutomariadapenha.org.br/lei-11340/tipos-de-violencia.html">Manual para Atendimento às Vítimas de Violência na Rede de Saúde Pública do DF (2009)</Link>
+                            <Link to="https://www.institutomariadapenha.org.br/lei-11340/tipos-de-violencia.html">Manual para Atendimento às Vítimas de Violência na [...]</Link>
                         </div>
                     </div>
                     <div className="boxNews">
@@ -104,13 +104,13 @@ export default function Noticias() {
                           <img src={noticiaglobo} alt="" />
                        <div className='link'>
                             <Link to="https://g1.globo.com/sp/sao-paulo/noticia/2022/03/31/8-em-cada-dez-vitimas-de-violencia-contra-mulher-sofreram-abusos-psicologicos-na-pandemia-diz-projeto-que-atua-com-rede-de-voluntarias.ghtml">
-                            8 em cada dez vítimas de violência contra mulher sofreram abusos psicológicos na pandemia, diz [...] </Link>
+                            8 em cada dez vítimas de violência contra mulher sofreram abusos psicológicos [...] </Link>
                         </div>
                     </div>                 
                     <div className="boxNews">
                           <img src={img3} alt="" />
                        <div className='link'>
-                            <Link to="https://brasil.un.org/pt-br/93163-campanha-voce-nao-esta-sozinha-rede-de-protecao-e-essencial-para-acolher-mulheres-vitimas-de">Campanha Você Não Está Sozinha: Rede de proteção é essencial para acolher mulheres vítimas de violência</Link>
+                            <Link to="https://brasil.un.org/pt-br/93163-campanha-voce-nao-esta-sozinha-rede-de-protecao-e-essencial-para-acolher-mulheres-vitimas-de">Campanha Você Não Está Sozinha: Rede de proteção é essencial para acolher mulheres [...]</Link>
                         </div>
                     </div>
                     <div className="boxNews">
