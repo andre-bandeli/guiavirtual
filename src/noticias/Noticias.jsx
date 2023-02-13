@@ -22,7 +22,7 @@ import noticia7 from '../home/noticias/assets/noticia7.png'
 import noticia8 from '../home/noticias/assets/noticia8.png'
 
 import news from '../assets/news.webp'
-import pdf from '../assets/pdf.webp'
+import site from '../assets/site.webp'
 import contato from '../assets/contato.webp'
 import mensagem from '../assets/mensagem.webp'
 
@@ -44,8 +44,11 @@ const Related = ({icon, title, link}) => (
   
   const RelatedList = () => (
     <ul className='related'>
+      <Related icon={contato} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+      <Related icon={mensagem} title="Guia de saúde mental" link="/guia-saude-mental"/>
+      <Related icon={site} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+      <Related icon={site} title="Guia de saúde mental" link="/guia-saude-mental"/>
       <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
-      <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
     </ul>
   );
 

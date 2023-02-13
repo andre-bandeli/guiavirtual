@@ -8,7 +8,7 @@ import TitleContainerSobre from './titleContainer/TitleContainerContainer';
 
 import { Link } from "react-router-dom";
 
-
+import site from '../assets/site.webp'
 import news from '../assets/news.webp'
 import contato from '../assets/contato.webp'
 import mensagem from '../assets/mensagem.webp'
@@ -30,8 +30,10 @@ const Related = ({icon, title, link}) => (
 
 const RelatedList = () => (
   <ul className='related'>
-    <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+    <Related icon={site} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
     <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
   </ul>
 );
 

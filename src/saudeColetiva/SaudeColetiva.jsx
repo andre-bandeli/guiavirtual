@@ -29,8 +29,11 @@ const Related = ({icon, title, link}) => (
 
 const RelatedList = () => (
   <ul className='related'>
+    <Related icon={site} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
+    <Related icon={site} title="Guia de saúde mental" link="/guia-saude-mental"/>
     <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
-    <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
   </ul>
 );
 
