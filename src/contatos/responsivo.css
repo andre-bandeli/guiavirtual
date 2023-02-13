@@ -32,13 +32,14 @@
 
     .contatos .containerContatos .container-md-contatos .text h2 {
         font-size: 18px;
-        width: 80%;
+        width: 90%;
         text-align: left;
         font-weight: 300;
         margin-bottom: 5vh;
         line-height: 25px;
         margin-top: 5vh;
     }
+    
 
     .contatos .containerContatos .container-md-contatos .relacionados {
         width: 85%;
@@ -49,6 +50,13 @@
     .contatos .containerContatos .container-md-contatos .relacionados h2 {
         padding-top: 25px;
     }
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome h4 {
+        font-size: 14px;
+    }
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome a {
+        font-size: 14px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -61,8 +69,21 @@
         margin-top: 1.5vh;
         margin-left: 1vh;
     }
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome h4 {
+        font-size: 12px;
+    }
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome a {
+        font-size: 12px;
+    }
 }
-
+@media (max-width: 550px) {
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome h4 {
+        font-size: 10px;
+    }
+    .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome a {
+        font-size: 10px;
+    }
+}
 @media (max-width: 350px) {
     .contatos .containerContatos .container-md-contatos .text .containerContatosHome .containerBoxHome {
         width: 90%;
