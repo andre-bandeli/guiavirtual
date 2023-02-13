@@ -51,7 +51,8 @@
                         font-weight: 500;
                     }
                     a:hover {
-                        color: orangered;
+                        color: rgba(13, 203, 250, 0.932);
+                        font-weight: 800;
                     }
                 }
             }
@@ -155,7 +156,14 @@
         display: inline;
 
         .menu {
-            margin-top: 3vh;
+            margin-top: 3.5vh;
+
+            .Close {
+
+                margin-left: 70%;
+                width: 35px;
+
+            }
         }
 
         .logo {
@@ -195,6 +203,7 @@
             margin-left: 2vh;
         }
         .menu {
+            margin-top: 3vh;
         
             .Hamburguer {
                 width: 40px;
@@ -202,8 +211,16 @@
                 margin-left: 2vh;
             }
 
+            .Close {
+                margin-left: 80%;
+            }
+
             .mob {
                 width: 80vh;
+
+                li {
+                    margin-left: 2vh;
+                }
             }
     }
     }
