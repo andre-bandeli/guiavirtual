@@ -44,4 +44,4 @@ react-router: "^6.4.4"
 
 ### Premiações e Reconhecimentos
 
-A primeira versão deste guia foi premiada pela Confederação de Psicologia...
+O Guia Virtual de Atendimento às Mulheres Vítimas de Violência foi premiado no concurso de práticas inovadoras do Conselho Federal de Psicologia (2022)
