@@ -47,12 +47,8 @@ export default function Destaques() {
 
             <div className="container-md-destaques">
                 <div className="textDestaques">
-                  <h1>Fomos premiados</h1>
-                  <h2>Este guia virtual é um produto técnico produzido no mestrado profissional em Saúde Coletiva da UNICAMP na pesquisa 
-                    Percepções Sobre Violência contra a Mulher, orientada pela Profª Drª Rosana Teresa Onocko-Campos, que compõe uma 
-                    pesquisa bem maior chamada Implementação de Ambulatório a Pessoas Expostas a Situações de Violência, com vários mestrandos, 
-                    doutorandos, residentes, cuja pesquisadora principal também é a Profª Rosana. Este guia reúne material bibliográfico e trechos 
-                    das narrativas produzidas durante a pesquisa de campo.
+                  <h1>O Guia Virtual foi premiado</h1>
+                  <h2>O Guia Virtual de Atendimento às Mulheres Vítimas de Violência foi premiado no concurso de práticas inovadoras do Conselho Federal de Psicologia (2022)
                   </h2>
                   <h1>Compartilhe nosso QRCode</h1>
                   <h2>Clique no link abaixo para compartilhar o QRCode que dá acesso ao site. Bora juntos espalhar conhecimento?</h2>

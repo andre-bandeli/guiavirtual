@@ -48,8 +48,7 @@ export default function Contatos() {
 
         <div className="container-md-contatos">
           <div className="text">
-            <h2>Bem-vindo à nossa seção de contatos! Aqui você encontrará informações importantes sobre como entrar em
-              contato conosco e sobre alguns dos
+            <h2>Bem-vindo à seção de contatos! Aqui você encontrará informações importantes sobre alguns dos
               principais sites e organizações relacionadas ao tema da Saúde Coletiva e Saúde Mental.
             </h2>
             <div className="containerContatosHome">
