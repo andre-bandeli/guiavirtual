@@ -45,7 +45,7 @@ export default function Gravacoes() {
         <div className="containerGravacoes">
         <TitleContainerSobre
             title="Gravações" 
-            subtitle="Conheça um pouco mais sobre a pesquisa e sobre este guia virtual." />
+            subtitle="Veja aqui as gravações realizadas durante a pesquisa." />
 
             <div className="container-md-gravacoes">
                 <div className="videos">

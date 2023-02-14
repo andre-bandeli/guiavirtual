@@ -9,7 +9,7 @@
     display: flex;
 
     ul {
-        width: 70%;
+        width: 90%;
         height: 80%;
         margin: auto;
         display: flex;
@@ -33,44 +33,6 @@
         }
     }
 
-    .icons {
-        width: 10%;
-        margin: auto;
-        margin-right: 10vh;
-        justify-content: left;
-        .br-icon {
-            margin: auto;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            background-image: url(./assets/br.webp);
-            background-size: cover;
-            background-position: center;
-        }
-        .eua-icon {
-            margin: auto;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            background-image: url(./assets/eua.webp);
-            background-size: cover;
-            background-position: center;
-        }
-        .esp-icon {
-            margin: auto;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            background-image: url(./assets/esp.webp);
-            background-size: cover;
-            background-position: center;
-        }
-        .br-icon button, .esp-icon button, .eua-icon button {
-            width: 100%;
-            background-color: transparent;
-            border: none;
-        }
-    }
 }
 
 
@@ -82,14 +44,6 @@
             width: 100%;
             margin: auto;
             margin-left: 0vh;
-        }
-        .icons {
-            width: 0;
-            visibility: hidden;
-            .br-icon, .eua-icon, .esp-icon {
-                width: 0;
-                height: 0;
-            }
         }
     }
 }

@@ -17,7 +17,7 @@ export default function Duvidas() {
     <div className='duvidas'>
          <TitleContainer 
             title="Principais Dúvidas" 
-            subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
+            subtitle="Confira aqui algumas das principais dúvidas que podem surgir durante a leitura do guia." />
         <div className="container-duvidas">
         
         <Accordion className='acordion'>

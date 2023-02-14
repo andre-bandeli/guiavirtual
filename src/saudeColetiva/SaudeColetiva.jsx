@@ -45,7 +45,7 @@ export default function SaudeColetiva() {
       <Navbar />
       <div className="containerSaudeColetiva">
         <TitleContainerSobre title="Saúde Coletiva"
-          subtitle="Conheça um pouco mais sobre a pesquisa e sobre este guia virtual." />
+          subtitle="Fique por dentro dos assuntos sobre Saúde Coletiva." />
 
         <div className="container-md-saudeColetiva">
           <div className="text">

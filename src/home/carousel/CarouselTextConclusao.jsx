@@ -16,7 +16,7 @@ export default function CarouselTextConclusao() {
   return (
     <div className='carouselText'>
       <TitleContainer title="Concluindo"
-        subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
+        subtitle="Através das reflexões propostas aqui, o que podemos concluir?" />
       <div className='carouselTextContainer'>
         <Carousel className='carouselTextBootstrap' indicators={false}>
           {segundoSlider.map((d) => (

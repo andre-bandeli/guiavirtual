@@ -19,29 +19,6 @@ export default function NavSuperior() {
             <Link to="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva">Saúde Coletiva</Link>
         </li>
       </ul>
-      <ul className='icons'>
-        <li className='br-icon'>
-          <Link to="/">
-              <button>
-                  
-              </button>
-          </Link>
-        </li>
-        <li className='eua-icon'>
-          <Link to="/">
-                <button>
-                    
-                </button>
-            </Link>
-        </li>
-        <li className='esp-icon'>
-          <Link to="/">
-                <button>
-                    
-                </button>
-            </Link>
-        </li>
-      </ul>
 
     </div>
   )

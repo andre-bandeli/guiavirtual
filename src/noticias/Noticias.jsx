@@ -62,7 +62,7 @@ export default function Noticias() {
       <Navbar />
       <div className="containerNoticias">
         <TitleContainerNoticias title="Noticias e Conteúdos Extras"
-          subtitle="Conheça um pouco mais sobre a pesquisa e sobre este guia virtual." />
+          subtitle="Separamos alguns conteúdos e leituras extras que valem a reflexão." />
 
         <div className="container-md-noticias">
           <div className="news">

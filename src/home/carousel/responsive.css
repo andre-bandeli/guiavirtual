@@ -100,6 +100,9 @@
         width: 80%;
         font-size: 15px;
     }
+    .carouselText .carouselTextContainer .carouselTextBootstrap .carouselTextItem .carouselTextItemContentConclusao .textCarousel h3 {
+        font-size: 12px;
+    }
 
     .carouselText .carouselTextContainer .carouselTextBootstrap .carouselTextItem .carouselTextItemContent .btn-header {
         margin-left: 5vh;

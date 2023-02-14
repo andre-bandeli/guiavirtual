@@ -43,7 +43,7 @@ export default function Destaques() {
         <div className="containerDestaques">
         <TitleContainerSobre
             title="Destaques" 
-            subtitle="Conheça um pouco mais sobre a pesquisa e sobre este guia virtual." />
+            subtitle="Veja aqui alguns dos destaques deste guia." />
 
             <div className="container-md-destaques">
                 <div className="textDestaques">

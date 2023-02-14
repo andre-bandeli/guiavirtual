@@ -6,15 +6,14 @@ export default function SegundoFrame() {
   return (
     <div className='frameInicial'>
       <TitleContainer title="Acolher"
-        subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
+        subtitle="Cena 2: Uma reflexão sobre o impacto da violência contra mulheres na saúde coletiva" />
       <div className='apresentacaoPesquisaContainer'>
 
       </div>
 
       <div className="containerIframe">
-        <iframe src="https://www.youtube.com/embed/TCK2vsvA_co" title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tI_tOSg7LVY" title="YouTube video player" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
     </div>

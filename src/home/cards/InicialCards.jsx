@@ -13,8 +13,8 @@ export default function InicialCards() {
         },
         {
             image: site,
-            title: 'Instituto Maria da Penha: Enfrentar, por meio de mecanismos de [...]',
-            link: 'https://www.institutomariadapenha.org.br/',
+            title: 'Conheça mais sobre o grupo de pesquisa',
+            link: '/sobre',
         },
         {
             image: pdf,
@@ -23,8 +23,8 @@ export default function InicialCards() {
         },
         {
             image: site,
-            title: 'Protocolo do fluxo intersetorial de atendimento [...]',
-            link: '/',
+            title: 'Veja alguns destaques sobre o site e a pesquisa',
+            link: '/destaques',
         },
     ];
   

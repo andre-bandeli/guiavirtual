@@ -44,7 +44,7 @@ export default function Contatos() {
       <Navbar />
       <div className="containerContatos">
         <TitleContainerSobre title="Contatos"
-          subtitle="Conheça um pouco mais sobre a pesquisa e sobre este guia virtual." />
+          subtitle="Estes são os principais contatos e sites referentes ao tema." />
 
         <div className="container-md-contatos">
           <div className="text">

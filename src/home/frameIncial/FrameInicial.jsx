@@ -8,7 +8,7 @@ export default function FrameInicial() {
   return (
     <div className='frameInicial'>
       <TitleContainer title="Elas Derramam"
-        subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry" />
+        subtitle="Cena 1: Uma reflexão sobre o impacto da violência contra mulheres na saúde coletiva" />
       <div className='apresentacaoPesquisaContainer'></div>
 
       <div className="containerIframeInicial">
@@ -23,9 +23,8 @@ export default function FrameInicial() {
         </div>
 
         <div className="iframe">
-          <iframe src="https://www.youtube.com/embed/TCK2vsvA_co" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/XXR1YpgZi4Y" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
       </div>
