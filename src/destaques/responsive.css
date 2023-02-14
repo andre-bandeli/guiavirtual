@@ -2,11 +2,13 @@
     .destaques .containerDestaques .container-md-destaques {
         width: 90%;
         display: inline;
+        margin: auto;
     }
 
     .destaques .containerDestaques .container-md-destaques .textDestaques h2 {
         font-size: 18px;
         width: 80%;
+        margin: auto;
         text-align: left;
         font-weight: 300;
         margin-bottom: 5vh;
@@ -23,6 +25,12 @@
     .destaques .containerDestaques .container-md-destaques .relacionados h2 {
         padding-top: 25px;
     }
+    .destaques .containerDestaques .textDestaques h1 {
+        margin: auto;
+        margin-left: 8vh;
+        margin-top: 5vh;
+    }
+
 
     .destaques .containerDestaques .container-md-destaques .relacionados {
         width: 85%;
@@ -34,4 +42,15 @@
         margin-top: 2vh;
         padding-bottom: 55px;
     }
+}
+
+@media (max-width: 768px) {
+
+    .destaques .containerDestaques .textDestaques h1 {
+        margin-left: 5vh;
+
+    }
+
+
+
 }

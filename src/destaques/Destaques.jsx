@@ -5,12 +5,12 @@ import './destaques.scss'
 import './responsive.css'
 import Footer from '../footer/Footer'
 import TitleContainerSobre from './titleContainer/TitleContainerContainer';
-
 import { Link } from "react-router-dom";
 
 import site from '../assets/site.webp'
 import news from '../assets/news.webp'
 import pdf from '../assets/pdf.webp'
+import qrcode from '../home/textos/qrcode.svg'
 
 
 const Related = ({icon, title, link}) => (
@@ -55,11 +55,10 @@ export default function Destaques() {
                     das narrativas produzidas durante a pesquisa de campo.
                   </h2>
                   <h1>Compartilhe nosso QRCode</h1>
-                  <h2>  A pesquisa Percepções Sobre Violência Contra a Mulher foi realizada por meio de grupos focais narrativos, nos quais
-                        foram criadas narrativas de diferentes perspectivas sobre o tema, analisadas pelos próprios grupos em momento hermenêutico. 
-                        Este guia não é um resumo da dissertação, mas uma elaboração do conhecimento produzido na investigação. É destinado a profissionais
-                        que trabalham em serviços públicos como um instrumento de apoio à formação continuada sobre atendimento a situações de violência de gênero.
-                  </h2>
+                  <h2>Clique no link abaixo para compartilhar o QRCode que dá acesso ao site. Bora juntos espalhar conhecimento?</h2>
+                  <img src={qrcode} alt="" />
+                  <h5> <Link to='/'>Clique aqui</Link></h5>
+
                 </div>
                 <div className="relacionados">
                     <h2>
