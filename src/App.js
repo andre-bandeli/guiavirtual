@@ -24,6 +24,7 @@ import Gravacoes from './gravacoes/Gravacoes';
 import SaudeColetiva from './saudeColetiva/SaudeColetiva';
 import Noticias from './noticias/Noticias';
 import Contatos from './contatos/Contatos';
+import Destaques from './destaques/Destaques';
 
 function App() {
 
@@ -48,8 +49,8 @@ function App() {
       case '/contatos':
         title = 'Contatos';
         break;
-      case '/mensagem':
-        title = 'Enviar Mensagem';
+      case '/destaques':
+        title = 'Destques';
         break;
       
       default:
@@ -68,6 +69,7 @@ function App() {
         <Route path="/saudecoletiva" element={<SaudeColetiva />} />
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/contatos" element={<Contatos />} />
+        <Route path="/destaques" element={<Destaques />} />
       </Routes>
     );
   //   <div className="App">

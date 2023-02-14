@@ -29,11 +29,11 @@ const Related = ({icon, title, link}) => (
 
 const RelatedList = () => (
   <ul className='related'>
-    <Related icon={site} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
-    <Related icon={site} title="Guia de saúde mental" link="/guia-saude-mental"/>
-    <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
-    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
-    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={site} title="Conheça o grupo de Saúde Coletiva da FCM Unicamp" link="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva"/>
+    <Related icon={site} title="Saiba mais sobre o mestrado na Unicamp" link="http://www3.prpg.gr.unicamp.br/sites/site1/index.php/mestradodoutorado/"/>
+    <Related icon={site} title="Saiba mais sobre o mestrado na FCM" link="https://www.fcm.unicamp.br/posgraduacao/mestradodoutorado-stricto-sensu"/>
+    <Related icon={news} title="Manual para Atendimento às Vítimas de Violência na Rede de Saúde Pública do DF (2009)" link="https://bvsms.saude.gov.br/bvs/publicacoes/manual_atendimento_vitimas_violencia_saude_publica_DF.pdf"/>
+    <Related icon={pdf} title="Ficha de notificação de violência" link="https://drive.google.com/file/d/1kaDFIrn55E6luXpnvfw8-q_bRFZiTRCE/view?usp=sharing"/>
   </ul>
 );
 

@@ -28,10 +28,10 @@ const Related = ({icon, title, link}) => (
 
 const RelatedList = () => (
   <ul className='related'>
-    <Related icon={pdf} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
-    <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
-    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
-    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={site} title="Instituto Maria da Penha" link="https://www.institutomariadapenha.org.br/"/>
+    <Related icon={site} title="Premiação no Conselho Federal de Psicologia [...]" link="/destaques"/>
+    <Related icon={news} title="Confira notícias e conteúdos extras" link="/noticias"/>
+    <Related icon={news} title="Confira os principais contatos que selecionamos sobre o tema." link="/contatos"/>
     
   </ul>
 );

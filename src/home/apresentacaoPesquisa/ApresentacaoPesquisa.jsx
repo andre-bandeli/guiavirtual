@@ -59,7 +59,7 @@ export default function ApresentacaoPesquisa() {
                       saúde mental, incluindo a avaliação de Centros de Atenção Psicossocial (Caps) e novos arranjos na atenção básica em saúde.
                       </h4>
                       <button className='btn-introducao'>
-                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Sobre a Pesquisa</Link>  
+                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">saiba mais</Link>  
                       </button>
                 </div>
           </div>

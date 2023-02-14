@@ -30,13 +30,13 @@ const NavLinksMobile = () => {
               <Link to="/saudecoletiva">Saúde Coletiva</Link>
           </li>
           <li>
-              <Link to="/noticias">Noticias e conteúdos extras</Link>
+              <Link to="/noticias">Noticias e Conteúdos Extras</Link>
           </li>
           <li>
               <Link to="/contatos">Contatos</Link>
           </li>
           <li>
-              <Link to="/motocicletas">Envie uma mensagem</Link>
+              <Link to="/destaques">Destques</Link>
           </li>   
     </ul>
      );

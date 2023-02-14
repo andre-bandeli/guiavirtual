@@ -35,10 +35,13 @@ export default function Navbar() {
               <Link to="/saudecoletiva">Saúde Coletiva</Link>
           </li>
           <li>
-              <Link to="/noticias">Noticias e conteúdos extras</Link>
+              <Link to="/noticias">Noticias e Conteúdos Extras</Link>
           </li>
           <li>
               <Link to="/contatos">Contatos</Link>
+          </li>
+          <li>
+              <Link to="/destaques">Destaques</Link>
           </li>
         </ul>
       </div>

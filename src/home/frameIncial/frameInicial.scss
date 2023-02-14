@@ -48,23 +48,13 @@
                 margin-left: 2vh;
                 margin-top: 5vh;
             }
-
-            .btn-iframe-share {
-                border: none;
-                width: 150px;
-                margin-left: 2vh;
-                margin-top: 2vh;
-                background-color: var(--button-red);
-                color: whitesmoke;
-                border-radius: 2px;
-                font-weight: 500;
-            }
         }
 
         .iframe {
 
             width: 75%;
             height: 100%;
+            
 
             iframe {
                 width: 100%;

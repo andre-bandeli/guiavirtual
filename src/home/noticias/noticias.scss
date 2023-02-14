@@ -38,12 +38,13 @@
     backdrop-filter: blur( 6.5px );
     -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 10px;
+    text-align: left;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 
-  .news-item .text h3 {
-    margin-top: 5vh;
-    margin-left: 3vh;
+  .news-item .text a {
+
+    text-decoration: none;
     font-size: 24px;
     text-align: left;
     color: whitesmoke;
@@ -62,7 +63,7 @@
     background-image: url(./assets/imagem1.webp);
     color: var(--font-primary-color-link-light);
 
-    h3 {
+    a {
       font-size: 35px;
       font-weight: 800;
     }
@@ -73,7 +74,7 @@
     background-image: url(./assets/imagem3.webp);
     color: var(--font-primary-color-link-light);
 
-    h3 {
+    a {
       font-size: 35px;
       font-weight: 800;
     }
@@ -98,7 +99,7 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    h3 {
+    a {
       font-weight: 800;
     }
   }
@@ -124,7 +125,7 @@
     .news-item:nth-child(1), .news-item:nth-child(2), .news-item:nth-child(3), .news-item:nth-child(4) {
       grid-row-end: span 1;
       
-      h3 {
+      a {
         font-size: 25px;
         margin-top: 2vh;
       }
@@ -136,7 +137,7 @@
     .news-item:nth-child(1), .news-item:nth-child(2), .news-item:nth-child(3), .news-item:nth-child(4) {
       grid-row-end: span 1;
       
-      h3 {
+      a {
         font-size: 20px;
         margin-top: 2vh;
       }

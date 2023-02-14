@@ -30,10 +30,10 @@ const Related = ({icon, title, link}) => (
 
 const RelatedList = () => (
   <ul className='related'>
-    <Related icon={site} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="/politica-violencia-contra-mulheres"/>
-    <Related icon={pdf} title="Guia de saúde mental" link="/guia-saude-mental"/>
-    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
-    <Related icon={news} title="Guia de saúde mental" link="/guia-saude-mental"/>
+    <Related icon={site} title="Conheça mais sobre a pesquisa. Acesse a página do Grupo de Saúde Coletiva" link="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces"/>
+    <Related icon={pdf} title="Ficha de Notificação de Violência" link="https://drive.google.com/file/d/1kaDFIrn55E6luXpnvfw8-q_bRFZiTRCE/view"/>
+    <Related icon={news} title="Política Nacional de Enfrentamento à Violência Contra as Mulheres" link="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres"/>
+    <Related icon={news} title="Violência de Gênero" link="https://www.graduseditora.com/_files/ugd/c7d661_e05ce4f966e844c79715bd6bb94ccdad.pdf"/>
   </ul>
 );
 
