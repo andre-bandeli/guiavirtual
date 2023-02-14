@@ -15,6 +15,12 @@
         line-height: 25px;
         margin-top: 5vh;
     }
+    .destaques .containerDestaques .container-md-destaques .textDestaques img {
+        margin-left: 8vh;
+    }
+    .destaques .containerDestaques .container-md-destaques .textDestaques a {
+        margin-left: 5vh;
+    }
 
     .destaques .containerDestaques .container-md-destaques .textDestaques {
         width: 85%;

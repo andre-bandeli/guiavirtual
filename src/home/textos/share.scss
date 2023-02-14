@@ -107,7 +107,7 @@
                 display: inline;
 
                 img {
-                    margin-left: 10vh;
+                    margin-left: 7vh;
                     margin-top: 5vh;
                 }
 
@@ -121,6 +121,28 @@
                     h2 {
                         width: 100%;
                         margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    
+    .share {     
+        height: auto;
+        .containerShare {
+            .code {
+
+                img {
+                    margin-left: 4vh;
+                }
+
+                .text {
+
+                    h1 {
+                        font-size: 20px;
                     }
                 }
             }
