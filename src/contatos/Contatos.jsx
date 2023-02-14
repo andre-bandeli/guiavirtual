@@ -55,33 +55,32 @@ export default function Contatos() {
             <div className="containerContatosHome">
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.ilhasolteira.sp.gov.br/">Prefeitura Municipal de Ilha Solteira</Link>
+                <Link to="https://observatoriodamulher.org.br/">Observatório da Mulher</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.ilhasolteira.sp.gov.br/">Prefeitura Municipal de Ilha Solteira</Link>
+                <Link to="https://www.spm.gov.br/">Secretaria Nacional de Políticas para as Mulheres (SNPM)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.ilhasolteira.sp.gov.br/">Prefeitura Municipal de Ilha Solteira</Link>
+                <Link to="https://www.conselho.saude.gov.br/">Conselho Nacional de Saúde (CNS)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.ilhasolteira.sp.gov.br/">Prefeitura Municipal de Ilha Solteira</Link>
+                <Link to="https://www.cndm.gov.br/">Conselho Nacional dos Direitos da Mulher (CNDM)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.institutomariadapenha.org.br/">Instituto Maria da Penha</Link>
+                <Link to="https://www.onumulheres.org.br/">ONU Mulheres </Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.unicamp.br/unicamp/">Site da Unicamp</Link>
+                <Link to="https://www.saude.sp.gov.br/">Secretaria de Estado da Saúde de São Paulo (SES-SP)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
                 <Link to="https://www.naosecale.ms.gov.br/violencia-contra-a-mulher/">Não se Cale: Violência contra a
                 mulher - ms.gov.br</Link>
-
               </div>
               <div className="containerBoxHome">
                 <img src={contato} alt="" />

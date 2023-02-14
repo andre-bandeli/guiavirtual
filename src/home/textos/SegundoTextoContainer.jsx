@@ -1,6 +1,7 @@
 import React from 'react'
 import './textoContainer.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
+import Video from './Video'
 
 
 export default function SegundoTextoContainer() {
@@ -14,7 +15,7 @@ export default function SegundoTextoContainer() {
         <div className="title-text">
             <h2> 
               <p>
-              A violência contra a mulher (assim como outras violências e algumas doenças) são de notificação compulsória.
+                  A violência contra a mulher (assim como outras violências e algumas doenças) são de notificação compulsória.
                   O que isso significa? Que, como profissionais, não podemos nos calar diante de situações de suspeita ou 
                   confirmação de violência e precisamos avisar os outros serviços. A Portaria nº. 2.406/04/GM do Ministério da
                   Saúde institui serviço de notificação compulsória de violência contra a mulher, e traz um modelo de ficha de 
@@ -38,6 +39,7 @@ export default function SegundoTextoContainer() {
                 </p>
           </h2>
         </div>
+        <Video/>
       </div>
 
 
