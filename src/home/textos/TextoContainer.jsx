@@ -1,6 +1,7 @@
 import React from 'react'
 import './textoContainer.scss'
 import TitleContainer from '../titleContainer/TitleContainer'
+import Share from './Share'
 
 
 export default function TextoContainer() {
@@ -17,6 +18,7 @@ export default function TextoContainer() {
                  sexual e identidade de gênero, RACISMO… E todas as violências aqui listadas se relacionam.
           </h2>
         </div>
+        <Share/>
         <div className="title-text">
           <h2>
           Essa violência cultural que perpassa por anos e anos, gerações e gerações, tem um movimento cíclico: aprendemos e reproduzimos padrões de comportamento violentos, alimentando essas formas prejudiciais de se relacionar. É importante perceber o plano de fundo maior das relações sociais, históricas, culturais, mas como esta pesquisa de mestrado 
