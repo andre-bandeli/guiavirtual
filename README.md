@@ -15,11 +15,7 @@ As tecnologias utilizadas na criação do site incluem React JS, JavaScript, HTM
 ### Website Status
 ![BADGE](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)
 
-Veja o site online
-
-[PT](https://guia-virtual.herokuapp.com/)   :brazil:
-[ENG]() :gb:
-[SPN]() :es:
+Veja o site online [clicando aqui](https://guia-virtual.herokuapp.com/)
 
 ### Dependências
 
