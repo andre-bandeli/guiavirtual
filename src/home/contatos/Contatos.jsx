@@ -16,20 +16,20 @@ export default function Contatos() {
         <div className="containerContatosHome">
             <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.ilhasolteira.sp.gov.br/">Prefeitura Municipal de Ilha Solteira</Link>
+                <Link to="https://www.ilhasolteira.sp.gov.br/" target='_blank'>Prefeitura Municipal de Ilha Solteira</Link>
 
             </div>
             <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.institutomariadapenha.org.br/">Instituto Maria da Penha</Link>
+                <Link to="https://www.institutomariadapenha.org.br/" target='_blank'>Instituto Maria da Penha</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.unicamp.br/unicamp/">Site da Unicamp</Link>
+                <Link to="https://www.unicamp.br/unicamp/" target='_blank'>Site da Unicamp</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.naosecale.ms.gov.br/violencia-contra-a-mulher/">Não se Cale: Violência contra a mulher - ms.gov.br</Link>
+                <Link to="https://www.naosecale.ms.gov.br/violencia-contra-a-mulher/" target='_blank'>Não se Cale: Violência contra a mulher - ms.gov.br</Link>
                 
               </div>
               <div className="containerBoxHome">

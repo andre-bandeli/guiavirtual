@@ -24,20 +24,20 @@ export default function ApresentacaoPesquisa() {
               </p>
               <div className="container">
                   <button className='btn-info'>
-                      <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">Sobre a Pesquisa</Link>
+                      <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces" target='_blank'>Sobre a Pesquisa</Link>
                   </button>
                   <button className='btn-info'>
                   
-                      <Link to="https://www.fcm.unicamp.br/fcm/pesquisa/publicacoes">Publicações</Link>
+                      <Link to="https://www.fcm.unicamp.br/fcm/pesquisa/publicacoes" target='_blank'>Publicações</Link>
                   </button>
                   <button className='btn-info'>
                 
-                      <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces/projetos">Projetos</Link>
+                      <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces/projetos" target='_blank'>Projetos</Link>
                   </button>
               </div>
               <p>
-                Este guia reúne material bibliográfico e narrativas produzidas durante a pesquisa de campo. Não é um resumo da dissertação 
-                – essa pode ser acessada no link a seguir – mas uma elaboração do conhecimento produzido na investigação. É destinado a profissionais
+                Este guia reúne material bibliográfico e narrativas produzidas durante a pesquisa de campo. <b>Não é um resumo da dissertação </b> 
+                 – essa pode ser acessada  <Link to='https://drive.google.com/file/d/191Bag34rct0145eot2atPMyiq7J5TMXk/view?usp=sharing' target='_blank'>clicando aqui</Link> – mas uma elaboração do conhecimento produzido na investigação. É destinado a profissionais
                 que trabalham em serviços públicos 
                 como um instrumento de apoio à formação continuada sobre atendimento a situações de violência de gênero.
                 As narrativas produzidas na pesquisa trouxeram duas dimensões importantes: técnica e afetiva. Por isso, a maior colaboração que consigo pensar 
@@ -59,7 +59,7 @@ export default function ApresentacaoPesquisa() {
                       saúde mental, incluindo a avaliação de Centros de Atenção Psicossocial (Caps) e novos arranjos na atenção básica em saúde.
                       </h4>
                       <button className='btn-introducao'>
-                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces">saiba mais</Link>  
+                          <Link to="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces" target='_blank'>saiba mais</Link>  
                       </button>
                 </div>
           </div>

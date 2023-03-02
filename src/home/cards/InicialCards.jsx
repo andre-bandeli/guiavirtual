@@ -10,21 +10,25 @@ export default function InicialCards() {
             image: pdf,
             title: 'Ficha de notificação de violência Prefeitura Municipal de [...]',
             link: 'https://drive.google.com/file/d/1kaDFIrn55E6luXpnvfw8-q_bRFZiTRCE/view',
+            target_link: '_blank',
         },
         {
             image: site,
             title: 'Conheça mais sobre o grupo de pesquisa',
             link: '/sobre',
+            target_link: '_self',
         },
         {
             image: pdf,
-            title: 'Implementação de um ambulatório psicossocial para pessoas expostas [...]',
-            link: 'https://drive.google.com/file/d/1XvfGG-lYGkEBrMO9L9AmFL_vr9uy3mGi/view?usp=sharing',
+            title: 'Leia a Dissertação completa clicando aqui',
+            link: 'https://drive.google.com/file/d/191Bag34rct0145eot2atPMyiq7J5TMXk/view?usp=sharing',
+            target_link: '_blank'
         },
         {
             image: site,
             title: 'Veja alguns destaques sobre o site e a pesquisa',
             link: '/destaques',
+            target_link: '_self'
         },
     ];
   
@@ -37,7 +41,7 @@ export default function InicialCards() {
                     <img src={item.image} alt="" />
                 </div>
                 <div className="texto">
-                    <Link to={item.link}>{item.title}</Link>
+                    <Link to={item.link} target={item.target_link} >{item.title}</Link>
                 </div>
                   
               </div>

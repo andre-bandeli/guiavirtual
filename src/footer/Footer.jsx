@@ -21,38 +21,38 @@ export default function Footer() {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/login">Sobre a pesquisa</Link>
+                        <Link to="/sobre">Sobre a pesquisa</Link>
                     </li>
                     <li>
-                        <Link to="/sobre">Gravações</Link>
+                        <Link to="/gravacoes">Gravações</Link>
                     </li>
                     <li>
-                        <Link to="/financiamentos">Saúde coletiva</Link>
+                        <Link to="/saudecoletiva">Saúde coletiva</Link>
                     </li>
                     <li>
-                        <Link to="/contato">Notícias e Conteúdos extras</Link>
+                        <Link to="/noticias">Notícias e Conteúdos extras</Link>
                     </li>
                     <li>
-                        <Link to="/motocicletas">Contatos</Link>
+                        <Link to="/contatos">Contatos</Link>
                     </li>
                     <li>
-                        <Link to="/veiculos">Envie uma mensagem</Link>
+                        <Link to="/destaques">Envie uma mensagem</Link>
                     </li>
             </ul>
 
            </div>
            <div className="boxFooter">
-            <h2>Mestrado</h2>
+            <h2>Sites Externos</h2>
            <ul>
                     <li>
-                    <Link to="/">Mestrado na Unicamp</Link>
+                    <Link to="https://www.unicamp.br/unicamp/" target='_blank'>Site da Unicamp</Link>
                  
                     </li>
                     <li>
-                        <Link to="/">Mestrado na FCM</Link>
+                        <Link to="https://www.fcm.unicamp.br/posgraduacao/mestradodoutorado-stricto-sensu" target='_blank'>Mestrado na FCM</Link>
                     </li>
                     <li>
-                        <Link to="/">Ética em pesquisa</Link>
+                        <Link to="https://www.ilhasolteira.sp.gov.br/" target='_blank'>Prefeitura Ilha Solteira</Link>
                     </li>
 
             </ul>
@@ -69,16 +69,16 @@ export default function Footer() {
                        Campinas, São Paulo, Brasil.
                     </li>
                     <li>
-                       Inaya . Mestre em Psicologia
+                       Inaya Weijenborg . Mestre em Psicologia
                     </li>
                     <li>
                        Site desenvolvido por André L. Bandeli
                     </li>
                     <li className='redes'>
                     
-                    <Link to="https://www.linkedin.com/in/andrebandeli/">
+                    <Link to="https://www.linkedin.com/in/andrebandeli/" target='_blank'>
                         <img src={linkedin} alt="ícone do twitter" width='25px' height='25px' /></Link>
-                    <Link to="https://github.com/andre-bandeli">
+                    <Link to="https://github.com/andre-bandeli" target='_blank'>
                         <img src={git} alt="ícone do instagran" width='25px' height='25px' /></Link>
                     </li>
                    
@@ -89,14 +89,14 @@ export default function Footer() {
             <h2>Saiba mais</h2>
             <ul>
             <li>
-                    <Link to="/">Saúde Coletiva</Link>
+                    <Link to="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva" target='_blank'>Saúde Coletiva</Link>
                  
                     </li>
                     <li>
-                        <Link to="/">Resultados e DIscussões</Link>
+                        <Link to="https://drive.google.com/file/d/191Bag34rct0145eot2atPMyiq7J5TMXk/view?usp=sharing" target='_blank'>Resultados e Discussões</Link>
                     </li>
                     <li>
-                        <Link to="/">Premiações</Link>
+                        <Link to="/destaques">Premiação</Link>
                     </li>
 
             </ul>

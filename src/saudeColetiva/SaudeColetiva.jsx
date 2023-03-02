@@ -21,7 +21,7 @@ const Related = ({icon, title, link}) => (
     </div>
     <div className="text">
       <h3>
-        <Link to={link}>{title}</Link>
+        <Link to={link} target='_blank'>{title}</Link>
       </h3>
     </div>
   </li>

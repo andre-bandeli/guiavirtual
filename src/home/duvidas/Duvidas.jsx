@@ -2,6 +2,9 @@ import React from 'react'
 import './duvidas.scss'
 import './responsive.css'
 import TitleContainer from '../titleContainer/TitleContainer'
+import { Link } from "react-router-dom";
+
+
 
 import {
     Accordion,
@@ -66,7 +69,7 @@ export default function Duvidas() {
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
                                         <h3>
-                                       A pesquisa completa pode ser acessada <a href="https://www.fcm.unicamp.br/fcm/laboratorio-saude-coletiva-e-saude-mental-interfaces"> cliacando aqui</a> ou você pode acessar nossa página 'Sobre a pesquisa' para saber mais.
+                                       A pesquisa completa pode ser acessada <Link to='https://drive.google.com/file/d/191Bag34rct0145eot2atPMyiq7J5TMXk/view?usp=sharing' target='_blank'>clicando aqui</Link> ou você pode acessar nossa página 'Sobre a pesquisa' para saber mais.
                                         </h3>
                                     </AccordionItemPanel>
                                 </AccordionItem>     

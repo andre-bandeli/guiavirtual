@@ -20,7 +20,7 @@ const Related = ({icon, title, link}) => (
     </div>
     <div className="text">
     <h3>
-      <Link to={link}>{title}</Link>
+      <Link to={link} target='_blank'>{title}</Link>
     </h3>
     </div>
   </li>
@@ -53,7 +53,7 @@ export default function Destaques() {
                   <h1>Compartilhe nosso QRCode</h1>
                   <h2>Clique no link abaixo para compartilhar o QRCode que dá acesso ao site. Bora juntos espalhar conhecimento?</h2>
                   <img src={qrcode} alt="" />
-                  <h5> <Link to='/'>Clique aqui</Link></h5>
+                  <h5> <Link to='https://drive.google.com/file/d/1bf8sA1pSuDG1yidL3i5n2o2blAQSwxbl/view?usp=sharing' target='_blank'>Clique aqui</Link></h5>
 
                 </div>
                 <div className="relacionados">

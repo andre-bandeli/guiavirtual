@@ -23,7 +23,7 @@ const Related = ({icon, title, link}) => (
     </div>
     <div className="text">
     <h3>
-      <Link to={link}>{title}</Link>
+      <Link to={link} target='_blank'>{title}</Link>
     </h3>
     </div>
   </li>
@@ -54,31 +54,31 @@ export default function Contatos() {
             <div className="containerContatosHome">
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://observatoriodamulher.org.br/">Observatório da Mulher</Link>
+                <Link to="https://observatoriodamulher.org.br/" target='_blank'>Observatório da Mulher</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.spm.gov.br/">Secretaria Nacional de Políticas para as Mulheres (SNPM)</Link>
+                <Link to="https://www.spm.gov.br/" target='_blank'>Secretaria Nacional de Políticas para as Mulheres (SNPM)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.conselho.saude.gov.br/">Conselho Nacional de Saúde (CNS)</Link>
+                <Link to="https://www.conselho.saude.gov.br/" target='_blank'>Conselho Nacional de Saúde (CNS)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.cndm.gov.br/">Conselho Nacional dos Direitos da Mulher (CNDM)</Link>
+                <Link to="https://www.cndm.gov.br/" target='_blank'>Conselho Nacional dos Direitos da Mulher (CNDM)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.onumulheres.org.br/">ONU Mulheres </Link>
+                <Link to="https://www.onumulheres.org.br/" target='_blank'>ONU Mulheres </Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.saude.sp.gov.br/">Secretaria de Estado da Saúde de São Paulo (SES-SP)</Link>
+                <Link to="https://www.saude.sp.gov.br/" target='_blank'>Secretaria de Estado da Saúde de São Paulo (SES-SP)</Link>
               </div>
               <div className="containerBoxHome">
                 <img src={site} alt="" />
-                <Link to="https://www.naosecale.ms.gov.br/violencia-contra-a-mulher/">Não se Cale: Violência contra a
+                <Link to="https://www.naosecale.ms.gov.br/violencia-contra-a-mulher/" target='_blank'>Não se Cale: Violência contra a
                 mulher - ms.gov.br</Link>
               </div>
               <div className="containerBoxHome">

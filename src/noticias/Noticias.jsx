@@ -37,7 +37,7 @@ const Related = ({icon, title, link}) => (
       </div>
       <div className="text">
       <h3>
-        <Link to={link}>{title}</Link>
+        <Link to={link} target='_blank'>{title}</Link>
       </h3>
       </div>
     </li>
@@ -71,7 +71,7 @@ export default function Noticias() {
               <img src={imagem1} alt="" />
               <div className='link'>
                 <Link
-                  to="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres">
+                  to="https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/politica-nacional-de-enfrentamento-a-violencia-contra-as-mulheres" target='_blank'>
                 Política Nacional de Enfrentamento à Violência Contra as Mulheres</Link>
               </div>
 
@@ -80,26 +80,26 @@ export default function Noticias() {
             <div className="boxNews">
               <img src={imagem2} alt="" />
               <div className='link'>
-                <Link to="https://www.graduseditora.com/_files/ugd/c7d661_e05ce4f966e844c79715bd6bb94ccdad.pdf">Violência de Gênero</Link>
+                <Link to="https://www.graduseditora.com/_files/ugd/c7d661_e05ce4f966e844c79715bd6bb94ccdad.pdf" target='_blank'>Violência de Gênero</Link>
               </div>
             </div>
             <div className="boxNews">
               <img src={imagem3} alt="" />
               <div className='link'>
-                <Link to="https://bvsms.saude.gov.br/bvs/publicacoes/manual_atendimento_vitimas_violencia_saude_publica_DF.pdf">Manual para
+                <Link to="https://bvsms.saude.gov.br/bvs/publicacoes/manual_atendimento_vitimas_violencia_saude_publica_DF.pdf" target='_blank'>Manual para
                 Atendimento às Vítimas de Violência na [...]</Link>
               </div>
             </div>
             <div className="boxNews">
               <img src={imagem4} alt="" />
               <div className='link'>
-                <Link to="https://www.youtube.com/watch?v=ZdpZ-93uUnY">Música P.U.T.A. Altoria de Mulamba</Link>
+                <Link to="https://www.youtube.com/watch?v=ZdpZ-93uUnY" target='_blank'>Música P.U.T.A. Altoria de Mulamba</Link>
               </div>
             </div>
             <div className="boxNews">
               <img src={pesquisa} alt="" />
               <div className='link'>
-                <Link to="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva">Conheça o grupo de pesquisa em Saúde
+                <Link to="https://www.fcm.unicamp.br/posgraduacao/saude-coletiva" target='_blank'>Conheça o grupo de pesquisa em Saúde
                 Coletiva da FCM</Link>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function Noticias() {
               <img src={noticiaglobo} alt="" />
               <div className='link'>
                 <Link
-                  to="https://g1.globo.com/sp/sao-paulo/noticia/2022/03/31/8-em-cada-dez-vitimas-de-violencia-contra-mulher-sofreram-abusos-psicologicos-na-pandemia-diz-projeto-que-atua-com-rede-de-voluntarias.ghtml">
+                  to="https://g1.globo.com/sp/sao-paulo/noticia/2022/03/31/8-em-cada-dez-vitimas-de-violencia-contra-mulher-sofreram-abusos-psicologicos-na-pandemia-diz-projeto-que-atua-com-rede-de-voluntarias.ghtml" target='_blank'>
                 8 em cada dez vítimas de violência contra mulher sofreram abusos psicológicos [...] </Link>
               </div>
             </div>
@@ -115,14 +115,14 @@ export default function Noticias() {
               <img src={img3} alt="" />
               <div className='link'>
                 <Link
-                  to="https://brasil.un.org/pt-br/93163-campanha-voce-nao-esta-sozinha-rede-de-protecao-e-essencial-para-acolher-mulheres-vitimas-de">
+                  to="https://brasil.un.org/pt-br/93163-campanha-voce-nao-esta-sozinha-rede-de-protecao-e-essencial-para-acolher-mulheres-vitimas-de" target='_blank'>
                 Campanha Você Não Está Sozinha: Rede de proteção é essencial para acolher mulheres [...]</Link>
               </div>
             </div>
             <div className="boxNews">
               <img src={fiocruz} alt="" />
               <div className='link'>
-                <Link to="https://portal.fiocruz.br/noticia/violencia-contra-mulheres-no-contexto-da-covid-19">Violência
+                <Link to="https://portal.fiocruz.br/noticia/violencia-contra-mulheres-no-contexto-da-covid-19" target='_blank'>Violência
                 contra as mulheres no contexto da Covid-19 - Publicação FioCruz</Link>
               </div>
             </div>
@@ -130,28 +130,28 @@ export default function Noticias() {
               <img src={machistometro} alt="" />
               <div className='link'>
                 <Link
-                  to="https://catarinas.info/cuidado-reaja-e-busque-ajuda-conheca-os-sinais-de-alerta-no-machistometro/">
+                  to="https://catarinas.info/cuidado-reaja-e-busque-ajuda-conheca-os-sinais-de-alerta-no-machistometro/" target='_blank'>
                 Machistômetro</Link>
               </div>
             </div>
             <div className="boxNews">
               <img src={gov} alt="" />
               <div className='link'>
-                <Link to="https://www.gov.br/mdh/pt-br/assuntos/denuncie-violencia-contra-a-mulher/violencia-contra-a-mulher">Violência doméstica e familiar
+                <Link to="https://www.gov.br/mdh/pt-br/assuntos/denuncie-violencia-contra-a-mulher/violencia-contra-a-mulher" target='_blank'>Violência doméstica e familiar
                  contra a mulher: Ligue 180 e tudo o que você precisa saber</Link>
               </div>
             </div>
             <div className="boxNews">
               <img src={tjse} alt="" />
               <div className='link'>
-                <Link to="https://www.tjse.jus.br/portaldamulher/definicao-de-violencia-contra-a-mulher">Definição de Violência contra a Mulher. TJSE</Link>
+                <Link to="https://www.tjse.jus.br/portaldamulher/definicao-de-violencia-contra-a-mulher" target='_blank'>Definição de Violência contra a Mulher. TJSE</Link>
               </div>
 
             </div>
             <div className="boxNews">
               <img src={noticia9} alt="" />
               <div className='link'>
-                <Link to="https://www.justica.pr.gov.br/Pagina/Violencia-Contra-Mulher">A Violência Contra a Mulher</Link>
+                <Link to="https://www.justica.pr.gov.br/Pagina/Violencia-Contra-Mulher" target='_blank'>A Violência Contra a Mulher</Link>
               </div>
             </div>
           </div>
