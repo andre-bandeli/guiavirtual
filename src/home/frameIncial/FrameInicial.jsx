@@ -23,7 +23,7 @@ export default function FrameInicial() {
         </div>
 
         <div className="iframe">
-        <iframe src="https://www.youtube.com/embed/XXR1YpgZi4Y" title="YouTube video player" 
+        <iframe src="https://www.youtube.com/embed/XXR1YpgZi4Y" title="YouTube video player" async
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 

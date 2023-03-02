@@ -12,7 +12,7 @@ export default function SegundoFrame() {
       </div>
 
       <div className="containerIframe">
-      <iframe src="https://www.youtube.com/embed/tI_tOSg7LVY" title="YouTube video player" 
+      <iframe src="https://www.youtube.com/embed/tI_tOSg7LVY" title="YouTube video player" async
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 

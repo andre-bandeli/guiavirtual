@@ -15,7 +15,7 @@ export default function TerceiroFrame() {
         </div>
 
       <div className="containerIframe">
-      <iframe src="https://www.youtube.com/embed/r84xxU4E2Ho" title="YouTube video player"
+      <iframe src="https://www.youtube.com/embed/r84xxU4E2Ho" title="YouTube video player" async
        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
