@@ -7,9 +7,9 @@ Este projeto é um guia virtual de atendimento à mulheres vítimas de violênci
 
 O guia reúne informações técnicas e afetivas produzidas durante a pesquisa de campo, e é uma ferramenta importante para a formação continuada dos profissionais. O grupo de pesquisa envolvido na criação deste guia tem como objetivo articular estudos e reflexões na área de Saúde Coletiva e Saúde Mental.
 
-<b> Psicológa Mestre Inayá AW </b>
-
 As tecnologias utilizadas na criação do site incluem React JS, JavaScript, HTML, SCSS e outras tecnologias relacionadas ao desenvolvimento web. A escolha dessas tecnologias permitiu a criação de um site moderno, interativo e de fácil acesso para os profissionais. O resultado final é uma ferramenta de apoio no atendimento à mulheres vítimas de violência.
+
+Inayá Ananias Weijenborg: Psicóloga (UNESP) especialista em Saúde (CRP), especialização em Micropolítica da Gestão e Trabalho em Saúde Pública (UFF) e mestranda em Saúde Coletiva: Políticas, Planejamento e Gestão (UNICAMP). 
 
 
 ### Website Status
@@ -41,6 +41,12 @@ react-icons: "^4.7.1"
 ```  
 react-router: "^6.4.4"
 ```  
+
+### Melhorias
+
+- Melhorar carregamento do site (baixo desempenho com a utilização de iframes)
+- Correção responsivo 280px
+
 
 ### Premiações e Reconhecimentos
 
