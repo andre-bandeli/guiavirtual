@@ -3,7 +3,6 @@ import './header.scss'
 import './responsive.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { Link } from "react-router-dom";
 
 import {primeiroSlider} from './slides'
 import { useState } from 'react';
@@ -20,7 +19,7 @@ export default function Header() {
           {inicialSlider.map((d) => (
             <Carousel.Item className='carouselItem' interval={2500}>
               <img
-                src={d.imgSrc}
+                src={d.imgSrc} alt={d.imgAlt}
               />
               <div className="carouselItemContent">
                   <h1>{d.primeiroTexto}</h1>
