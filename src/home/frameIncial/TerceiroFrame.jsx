@@ -9,7 +9,7 @@ export default function TerceiroFrame() {
     <div className='frameInicial'>
        <TitleContainer 
             title="Juntar as Peças" 
-            subtitle="Cena 3: Uma reflexão sobre o impacto da violência contra mulheres na saúde coletiva" />
+            subtitle="Qual a responsabilidade sobre nós, profissionais que prestam esse atendimento?" />
         <div className='apresentacaoPesquisaContainer'>
 
         </div>

@@ -6,7 +6,7 @@ export default function SegundoFrame() {
   return (
     <div className='frameInicial'>
       <TitleContainer title="Acolher"
-        subtitle="Cena 2: Uma reflexão sobre o impacto da violência contra mulheres na saúde coletiva" />
+        subtitle="Essas violências - pequenas e diárias - que você precisa ter um ouvido muito atento [...] " />
       <div className='apresentacaoPesquisaContainer'>
 
       </div>

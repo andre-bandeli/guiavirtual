@@ -36,7 +36,7 @@ const NavLinksMobile = () => {
               <Link to="/contatos">Contatos</Link>
           </li>
           <li>
-              <Link to="/destaques">Destques</Link>
+              <Link to="/destaques">Destaques</Link>
           </li>   
     </ul>
      );
