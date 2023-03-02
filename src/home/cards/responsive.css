@@ -84,7 +84,7 @@
 
 @media (max-width: 450px) {
     .containerCards {
-        height: 30vh;
+        height: 40vh;
     }
 
     .containerCards .InicialCards {
@@ -95,8 +95,8 @@
 
     .containerCards .InicialCards .boxInicial {
         width: 40%;
-        height: 75%;
-        margin-top: 2vh;
+        height: 95%;
+        margin-top: 3vh;
     }
 
     .containerCards .InicialCards .boxInicial .imagem {

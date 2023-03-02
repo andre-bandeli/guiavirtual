@@ -195,7 +195,7 @@
 
 @media (max-width: 550px) {
     .navbar {
-
+        height: 20vh;
         .logo {
 
             width: 60%;
@@ -225,7 +225,12 @@
     }
     }
 }
-
+@media (max-width: 400px) {
+    .navbar {
+        height: 24vh;
+        
+    }
+}
 @media (max-width: 300px) {
     .navbar {
         height: 20vh;
