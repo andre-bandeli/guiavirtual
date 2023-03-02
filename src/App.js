@@ -50,7 +50,7 @@ function App() {
         title = 'Contatos';
         break;
       case '/destaques':
-        title = 'Destques';
+        title = 'Destaques';
         break;
       
       default:
