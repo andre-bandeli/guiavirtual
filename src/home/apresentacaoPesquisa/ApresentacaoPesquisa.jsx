@@ -18,9 +18,9 @@ export default function ApresentacaoPesquisa() {
               <p>
                 Este guia virtual é um produto técnico produzido no mestrado profissional em Saúde Coletiva da UNICAMP, numa pesquisa
                 orientada pela Profa Dra Rosana Teresa Onocko-Campos e compõe uma pesquisa bem maior chamada 
-                Implementação de Ambulatório a Pessoas Expostas a Situações de Violência, com vários mestrandos, doutorandos, residentes
+                Implementação de Ambulatório a Pessoas Expostas a Situações de Violência, com vários mestrandos, doutorandos, residentes.
                 Pensando especialmente para os trabalhadores do município de Ilha Soleira/SP, espero que este produto técnico possibilite reflexões 
-                através do texto e dos links de acesso a materiais sobre o tema. Atenciosamente, Inayá AW
+                através do texto e dos links de acesso a materiais sobre o tema.
               </p>
               <div className="container">
                   <button className='btn-info'>
