@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-import NavSuperior from '../navbar/NavSuperior';
 import './noticias.scss'
 import Footer from '../footer/Footer'
 import TitleContainerNoticias from './titleContainer/TitleContainerNoticias';
@@ -18,14 +17,10 @@ import fiocruz from '../home/noticias/assets/fiocruz.jpg'
 import noticiaglobo from '../home/noticias/assets/foto-1.webp'
 import machistometro from '../home/noticias/assets/machistometro.webp'
 import gov from '../home/noticias/assets/gov.png'
-import noticia7 from '../home/noticias/assets/noticia7.png'
-import noticia8 from '../home/noticias/assets/noticia8.png'
 import tjse from '../home/noticias/assets/tjse.png'
-import news from '../assets/news.webp'
 import site from '../assets/site.webp'
 import contato from '../assets/contato.webp'
 import noticia9 from '../home/noticias/assets/noticia9.png'
-import mensagem from '../assets/mensagem.webp'
 
 
 
@@ -58,7 +53,6 @@ const Related = ({icon, title, link}) => (
 export default function Noticias() {
   return (
     <div className='noticias'>
-      <NavSuperior />
       <Navbar />
       <div className="containerNoticias">
         <TitleContainerNoticias title="Noticias e Conteúdos Extras"

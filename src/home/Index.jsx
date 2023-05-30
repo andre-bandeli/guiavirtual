@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Navbar from '../navbar/Navbar';
-import NavSuperior from '../navbar/NavSuperior';
 import ApresentacaoPesquisa from '../home/apresentacaoPesquisa/ApresentacaoPesquisa';
 import FrameInicial from '../home/frameIncial/FrameInicial'
 import TextoContainer from '../home/textos/TextoContainer';
@@ -27,7 +26,6 @@ export default function Index() {
   return (
     <div>
       <header>
-        <NavSuperior/>
         <Navbar/>
       </header>
       <main>

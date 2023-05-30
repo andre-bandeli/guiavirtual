@@ -1,247 +1,63 @@
-
-
 .navbar {
     width: 100%;
-    height: 25vh;
-    background-color: rgb(253, 247, 247);
-    display: inline-block;
+    height: 15vh;
+    display: flex;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
 
-    .menu {
-            margin-top: 8vh;
-            width: 0px;
-            height: 0px;
-            margin-left: 0vh;
-            visibility: hidden;
-
-            .Hamburguer {
-                width: 0;
-                height: 0;
-            }
-            .Close {
-                width: 50px;
-                height: 50px;
-                margin-top: -10vh;
-                margin-left: 65vh;
-                z-index: 99999;
-                position: fixed;
-            }
-            .mob {
-                background: rgba(29, 29, 29, 0.35);
-                backdrop-filter: blur( 13.5px );
-                -webkit-backdrop-filter: blur( 13.5px );
-                border: none;
-                z-index: 999;
-                width: 80%;
-                height: 96vh;
-                margin-left: -1vh;
-                margin-top: -12vh;
-                position: fixed;
-                border-radius: 0;
-
-                li {
-
-                    margin-top: 5vh;
-                    margin-left: 5vh;
-
-                    a {
-                        color: white;
-                        text-decoration: none;
-                        font-size: 22px;
-                        font-weight: 500;
-                    }
-                    a:hover {
-                        color: rgba(13, 203, 250, 0.932);
-                        font-weight: 800;
-                    }
-                }
-            }
-    }
     .logo {
-            width: 24%;
-            height: 24%;
-            margin: auto;
-            display: flex;
-            margin-left: 10vh;
-            margin-top: 8vh;
-
+        width: 25%;
+        height: 100%;
+        margin: auto;
+        margin-left: 0;
+        display: flex;
 
         img {
-                width: 100%;
-                height: 100%;
-                margin-left: 3vh;
+            width: 200px;
+            height: 90px;
+            margin: auto;
         }
     }
 
-    .nav {
-        width: 90%;
-        height: 30%;
-        margin: auto;
+    .navbar {
+        width: 50%;
+        height: 100%;
 
         ul {
             width: 100%;
-            height: 80%;
-            margin: auto;
+            height: 100%;
             display: flex;
-    
+            align-items: center;
+
             li {
                 width: auto;
                 display: flex;
-                margin-right: 5vh;
-    
+                align-items: center;
+                margin: auto;
+
                 a {
                     text-decoration: none;
-                    margin-top: 2vh;
-                    font-size: 16px;
+                    font-size: 20px;
                     font-weight: 600;
-                    color: rgb(95, 93, 93);
-                }
-                a:hover {
-                    transition: .4s ease;
-                    color: rgb(37, 36, 36);
+                    color: black;
+                    text-align: left;
                 }
             }
         }
     }
-}
 
-@media (max-width: 1440px) {
-    .navbar {
-            .menu {
-                width: 100%;
-                height: 70px;
-                margin-left: 1vh;
-                margin-top: 2vh;
-                visibility: visible;
-
-                .Hamburguer {
-                    margin-left: 7vh;
-                    width: 50px;
-                    height: 50px;
-                }
-
-                .Close {
-                    margin-left: 70%;
-                }
-                .mob {
-                    margin-top: -12.5vh;
-
-                    li {
-                        margin-top: 7vh;
-                    }
-                }
-            }
-            .logo {
-                width: 40%;
-                height: 25%;
-                margin-top: 7vh;
-                margin-left: 7vh;
-                img {
-                    margin-left: 1vh;
-                }
-            }
+    .search {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
-    .navbar .nav {
-        ul {
-            li {
-                a {
-                    font-size: 0px;
-                }
-            }
-        }
+
+    .mobile-navbar {
+        width: 10%;
+        height: 100%;
+        display: none;
+        align-items: center;
     }
-}
-@media (max-width: 1024px) {
-    .navbar {
-        display: inline;
 
-        .menu {
-            margin-top: 3.5vh;
-
-            .Close {
-
-                margin-left: 70%;
-                width: 35px;
-
-            }
-        }
-
-        .logo {
-            margin-top: 6vh;
-            height: 30%;
-        }
-    }
-}
-
-@media (max-width: 1024px) and (max-height: 600px) {
-    .navbar {
-
-        .menu { 
-            margin-top: 2vh;
-            
-            .Hamburguer {
-                width: 35px;
-
-            }
-        }
-
-        .logo {
-            margin-top: 6vh;
-            height: 30%;
-        }
-    }
-}
-
-
-@media (max-width: 550px) {
-    .navbar {
-        height: 20vh;
-        .logo {
-
-            width: 60%;
-            height: 30%;
-            margin-left: 2vh;
-        }
-        .menu {
-            margin-top: 2vh;
-        
-            .Hamburguer {
-                width: 40px;
-                height: 40px;
-                margin-left: 2vh;
-            }
-
-            .Close {
-                margin-left: 80%;
-            }
-
-            .mob {
-                width: 80vh;
-
-                li {
-                    margin-left: 2vh;
-                }
-            }
-    }
-    }
-}
-@media (max-width: 400px) {
-    .navbar {
-        height: 24vh;
-        
-    }
-}
-@media (max-width: 300px) {
-    .navbar {
-        height: 20vh;
-        .logo {
-            visibility: hidden;
-            height: 5px;
-            img {
-                width: 0;
-                height: 0;
-                visibility: hidden;
-            }
-        }
-    }
 }

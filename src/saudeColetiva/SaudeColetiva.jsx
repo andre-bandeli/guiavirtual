@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-import NavSuperior from '../navbar/NavSuperior';
 import './saudeColetiva.scss'
 import Footer from '../footer/Footer'
 import TitleContainerSobre from './titleContainer/TitleContainerContainer';
@@ -41,7 +40,6 @@ const RelatedList = () => (
 export default function SaudeColetiva() {
   return (
     <div className='saudeColetiva'>
-      <NavSuperior />
       <Navbar />
       <div className="containerSaudeColetiva">
         <TitleContainerSobre title="Saúde Coletiva"

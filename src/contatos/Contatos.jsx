@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-import NavSuperior from '../navbar/NavSuperior';
 import './contatos.scss'
 import './responsivo.css'
 import '../produtosRelacionados/relacionados.scss'
@@ -40,7 +39,6 @@ const RelatedList = () => (
 export default function Contatos() {
   return (
     <div className='contatos'>
-      <NavSuperior />
       <Navbar />
       <div className="containerContatos">
         <TitleContainerSobre title="Contatos"

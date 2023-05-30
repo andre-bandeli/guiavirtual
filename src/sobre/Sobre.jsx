@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-import NavSuperior from '../navbar/NavSuperior';
 import './sobre.scss'
 import './responsive.css'
 import Footer from '../footer/Footer'
@@ -10,8 +9,6 @@ import { Link } from "react-router-dom";
 
 import site from '../assets/site.webp'
 import news from '../assets/news.webp'
-import contato from '../assets/contato.webp'
-import mensagem from '../assets/mensagem.webp'
 import pdf from '../assets/pdf.webp'
 
 
@@ -40,7 +37,6 @@ const RelatedList = () => (
 export default function Sobre() {
   return (
     <div className='sobre'>
-        <NavSuperior/>
         <Navbar/>
         <div className="containerSobre">
         <TitleContainerSobre
