@@ -2,7 +2,6 @@ import React from 'react'
 
 import Navbar from '../navbar/Navbar';
 import NavSuperior from '../navbar/NavSuperior';
-import Header from './header/Header'
 import ApresentacaoPesquisa from '../home/apresentacaoPesquisa/ApresentacaoPesquisa';
 import FrameInicial from '../home/frameIncial/FrameInicial'
 import TextoContainer from '../home/textos/TextoContainer';
@@ -22,13 +21,17 @@ import CarouselTextConclusao from './carousel/CarouselTextConclusao';
 import TerceiroFrame from './frameIncial/TerceiroFrame';
 import PrimeiroTextoContainer from './textos/PrimeiroTextoContainer';
 import TextRunn from './runner/TextRunn';
+import Hero from './hero/Hero';
 
 export default function Index() {
   return (
     <div>
+      <header>
         <NavSuperior/>
         <Navbar/>
-        <Header/>
+      </header>
+      <main>
+        <Hero/>
         <InicialCards/>
         <TextRunn/>
         <ApresentacaoPesquisa/>
@@ -44,7 +47,11 @@ export default function Index() {
         <Poema/>
         <Duvidas/>
         <Contatos/>
+      </main>
+
+      <footer>
         <Footer/>
+      </footer>
 
     </div>
   )

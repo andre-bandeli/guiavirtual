@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.scss'
+import './hero.scss'
 import './responsive.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
@@ -8,12 +8,12 @@ import {primeiroSlider} from './slides'
 import { useState } from 'react';
 
 
-export default function Header() {
+export default function Hero() {
 
 
   const [inicialSlider] = useState(primeiroSlider);
   return (
-    <div className='headerContainer'>
+    <div className='heroContainer'>
       <div className='carouselContainer'>
       <Carousel className='carouselBootstrap' indicators={false}>
           {inicialSlider.map((d) => (
@@ -25,7 +25,7 @@ export default function Header() {
                   <h1>{d.primeiroTexto}</h1>
                   <h2>{d.segundoTexto}</h2>
  
-                  <button className='btn-header'>
+                  <button className='btn-hero'>
                     <a href={d.link}>ver mais</a>
                   </button> 
                 </div>
