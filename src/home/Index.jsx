@@ -11,7 +11,7 @@ import Contatos from '../home/contatos/Contatos';
 import Duvidas from '../home/duvidas/Duvidas'
 import Footer from '../footer/Footer'
 import CarouselTextConclusao from './carousel/CarouselTextConclusao';
-import PrimeiroTextoContainer from './textos/PrimeiroTextoContainer';
+import SegundoTexto from './segundoTexto/SegundoTexto';
 import Hero from './hero/Hero';
 import PrimeiroTexto from './primeiroTexto/PrimeiroTexto';
 import Frame3 from './frameIncial/Frame3';
@@ -27,7 +27,7 @@ export default function Index() {
         <Hero/>
         <PrimeiroTexto/>
         <FrameInicial/>
-        <PrimeiroTextoContainer/>
+        <SegundoTexto/>
         <Frame2/>
         <TextoContainer/>
         <FilterCategoria/>
