@@ -1,6 +1,7 @@
-.segundoTexto {
+.quintoTexto {
     width: 100%;
     height: auto;
+    margin-top: 150px;
 
     .container {
         width: 100%;
@@ -9,43 +10,8 @@
         display: flex;
         flex-wrap: wrap;
 
-        .col-12 {
-            width: 100%;
-            height: 50%;
-            margin: auto;
-            margin-top: 50px;
-            display: inline-block;
-            align-items: center;
-
-            iframe {
-                width: 100%;
-                height: 45vh;
-            }
-
-            h3 {
-                font-size: 22px;
-                font-weight: 300;
-                line-height: 35px;
-                margin: auto;
-
-                strong {
-                    font-weight: bold;
-                }
-            }
-
-            h4 {
-                font-size: 16px;
-                font-weight: 300;
-            }
-
-            img {
-                width: 480px;
-                height: 420px;
-            }
-        }
-
         .col-6 {
-            width: 45%;
+            width: 30%;
             height: 45%;
             margin: auto;
             margin-top: 50px;
@@ -53,7 +19,26 @@
             align-items: center;
 
             h3 {
-                font-size: 22px;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 35px;
+                width: 70%;
+                height: 60%;
+                margin: auto;
+            }
+
+        }
+
+        .col-8 {
+            width: 35%;
+            height: 55%;
+            margin: auto;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+
+            h3 {
+                font-size: 18px;
                 font-weight: 300;
                 line-height: 35px;
                 margin: auto;
@@ -62,6 +47,14 @@
             img {
                 width: 480px;
                 height: 420px;
+                border-radius: 25px;
+            }
+
+            .btn {
+                width: 150px;
+                height: 40px;
+                background-color: black;
+                position: absolute;
             }
         }
     }

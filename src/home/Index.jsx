@@ -2,12 +2,9 @@ import React from 'react'
 
 import Navbar from '../navbar/Navbar';
 import FrameInicial from '../home/frameIncial/FrameInicial'
-import TextoContainer from '../home/textos/TextoContainer';
-import SegundoTextoContainer from '../home/textos/SegundoTextoContainer';
 import FilterCategoria from '../home/filterCategorias/FilterCategoria';
 import Poema from '../home/poema/Poema';
 import Noticias from '../home/noticias/Noticias';
-import Contatos from '../home/contatos/Contatos';
 import Duvidas from '../home/duvidas/Duvidas'
 import Footer from '../footer/Footer'
 import CarouselTextConclusao from './carousel/CarouselTextConclusao';
@@ -16,6 +13,9 @@ import Hero from './hero/Hero';
 import PrimeiroTexto from './primeiroTexto/PrimeiroTexto';
 import Frame3 from './frameIncial/Frame3';
 import Frame2 from './frameIncial/Frame2';
+import TerceiroTexto from './terceiroTexto/TerceiroTexto';
+import QuartoTexto from './quartoTexto/QuartoTexto';
+import QuintoTexto from './quintoTexto/QuintoTexto';
 
 export default function Index() {
   return (
@@ -29,10 +29,10 @@ export default function Index() {
         <FrameInicial/>
         <SegundoTexto/>
         <Frame2/>
-        <TextoContainer/>
+        <TerceiroTexto/>
         <FilterCategoria/>
-        <SegundoTextoContainer/>
-        <CarouselTextConclusao/>
+        <QuartoTexto/>
+        <QuintoTexto/>
         <Frame3/>
         <Noticias/>
         <Poema/>
