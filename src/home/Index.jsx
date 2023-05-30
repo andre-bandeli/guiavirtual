@@ -30,8 +30,8 @@ export default function Index() {
       </header>
       <main>
         <Hero/>
-        <InicialCards/>
-        <TextRunn/>
+        {/* <InicialCards/>
+        <TextRunn/> */}
         <ApresentacaoPesquisa/>
         <FrameInicial/>
         <PrimeiroTextoContainer/>

@@ -9,7 +9,8 @@ import MobileNavigation from './MobileNavigation';
 export default function Navbar() {
   return (
     <div className='navbar'>
-        <div className="logo">
+      <div className="container">
+      <div className="logo">
           <img src={unicamp} alt="" />
         </div>
         
@@ -35,6 +36,7 @@ export default function Navbar() {
       </div>
       <div className="mobile-navbar">
           <MobileNavigation/>
+      </div>
       </div>
     </div>
   )

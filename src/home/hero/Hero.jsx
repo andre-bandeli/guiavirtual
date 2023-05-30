@@ -2,37 +2,23 @@ import React from 'react'
 import './hero.scss'
 import './responsive.css'
 import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
-
-import {primeiroSlider} from './slides'
-import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 
 export default function Hero() {
 
-
-  const [inicialSlider] = useState(primeiroSlider);
   return (
     <div className='heroContainer'>
-      <div className='carouselContainer'>
-      <Carousel className='carouselBootstrap' indicators={false}>
-          {inicialSlider.map((d) => (
-            <Carousel.Item className='carouselItem' interval={2500}>
-              <img
-                src={d.imgSrc} alt={d.imgAlt}
-              />
-              <div className="carouselItemContent">
-                  <h1>{d.primeiroTexto}</h1>
-                  <h2>{d.segundoTexto}</h2>
- 
-                  <button className='btn-hero'>
-                    <a href={d.link}>ver mais</a>
-                  </button> 
-                </div>
-            </Carousel.Item>
-          ))}
-      </Carousel>
-      </div>
+        <div className="container-lg-12">
+          <div className="container">
+            <h1>Guia virtual de atendimento à mulheres vítimas de violência</h1>
+               <h2>Um guia virtual para atendimento de mulheres vítimas de violência como produto do Mestrado em Saúde Coletiva
+                 pela Faculdade de Ciências Médicas da Unicamp</h2>
+                <button className='primary-button'>
+                  <Link to="/">ler mais</Link>
+                </button>
+          </div>
+        </div>
     </div>
   )
 }
