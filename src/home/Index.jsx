@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Navbar from '../navbar/Navbar';
-import ApresentacaoPesquisa from '../home/apresentacaoPesquisa/ApresentacaoPesquisa';
 import FrameInicial from '../home/frameIncial/FrameInicial'
 import TextoContainer from '../home/textos/TextoContainer';
 import SegundoTextoContainer from '../home/textos/SegundoTextoContainer';
@@ -11,16 +10,12 @@ import Noticias from '../home/noticias/Noticias';
 import Contatos from '../home/contatos/Contatos';
 import Duvidas from '../home/duvidas/Duvidas'
 import Footer from '../footer/Footer'
-
-
-
-import InicialCards from '../home/cards/InicialCards';
-import SegundoFrame from './frameIncial/SegundoFrame';
 import CarouselTextConclusao from './carousel/CarouselTextConclusao';
-import TerceiroFrame from './frameIncial/TerceiroFrame';
 import PrimeiroTextoContainer from './textos/PrimeiroTextoContainer';
-import TextRunn from './runner/TextRunn';
 import Hero from './hero/Hero';
+import PrimeiroTexto from './primeiroTexto/PrimeiroTexto';
+import Frame3 from './frameIncial/Frame3';
+import Frame2 from './frameIncial/Frame2';
 
 export default function Index() {
   return (
@@ -30,21 +25,18 @@ export default function Index() {
       </header>
       <main>
         <Hero/>
-        {/* <InicialCards/>
-        <TextRunn/> */}
-        <ApresentacaoPesquisa/>
+        <PrimeiroTexto/>
         <FrameInicial/>
         <PrimeiroTextoContainer/>
-        <SegundoFrame/>
+        <Frame2/>
         <TextoContainer/>
         <FilterCategoria/>
         <SegundoTextoContainer/>
         <CarouselTextConclusao/>
-        <TerceiroFrame/>
+        <Frame3/>
         <Noticias/>
         <Poema/>
         <Duvidas/>
-        <Contatos/>
       </main>
 
       <footer>
