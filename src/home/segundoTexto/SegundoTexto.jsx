@@ -22,12 +22,8 @@ export default function SegundoTexto() {
               </p>
 
             </div>
-            <div className="col-6">
-                <img src={imagem_1} alt="" />
-            </div>
-            <div className="col-6">
-              <img src={imagem_2} alt="" />
-            </div>
+            <img src={imagem_1} alt="" />
+            <img src={imagem_2} alt="" />
             <div className="col-6">
                 <p>
                   <h3>A violência é social e histórica: em diferentes sociedades e em diferentes tempos, aparece sob formas diferentes, e aquelas formas que 
