@@ -1,0 +1,45 @@
+@import '../../main_css_variaveis/variaveis.css';
+
+
+.sobre {
+    width: 100%;
+    height: auto;
+    font-family: var(--font-primary);
+
+
+    .containerSobre {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10vh;
+
+        .container-md-sobre {
+
+            width: 85%;
+            height: 90%;
+            margin: auto;
+            margin-top: 10vh;
+            display: flex;
+
+            .text {
+                width: 70%;
+                height: 100%;
+
+                h2 {
+
+                    font-size: 18px;
+                    width: 80%;
+                    text-align: left;
+                    font-weight: 300;
+                    margin-bottom: 5vh;
+                    line-height: 25px;
+                }
+            }
+            
+            @media (max-width: 1440px) {
+                .relacionados {
+                    height: 110vh;
+                }
+            }
+        }
+    }
+}
