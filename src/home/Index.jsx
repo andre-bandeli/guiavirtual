@@ -35,7 +35,6 @@ export default function Index() {
         <QuintoTexto/>
         <Frame3/>
         <Noticias/>
-        <Poema/>
         <Duvidas/>
       </main>
 

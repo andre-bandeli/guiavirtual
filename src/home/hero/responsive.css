@@ -1,0 +1,103 @@
+@media (max-width: 1440px) {
+    .heroContainer .container-lg-12 .container {
+      width: 80%;
+    }
+    .heroContainer .container-lg-12 .container h1 {
+      font-size: 53px;
+    }
+    .heroContainer .container-lg-12 .container h2 {
+      font-size: 24px;
+      line-height: normal;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .heroContainer .container-lg-12 {
+      border-bottom-right-radius: 350px;
+    }
+    .heroContainer .container-lg-12 .container {
+      width: 90%;
+    }
+    .heroContainer .container-lg-12 .container h1 {
+      width: 90%;
+      font-size: 45px;
+    }
+    .heroContainer .container-lg-12 .container h2 {
+      font-size: 20px;
+    }
+    .heroContainer .container-lg-12 .container .primary-button {
+      width: 175px;
+      height: 35px;
+    }
+    .heroContainer .container-lg-12 .container .primary-button a {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .heroContainer .container-lg-12 {
+      height: 75vh;
+      border-bottom-right-radius: 250px;
+    }
+    .heroContainer .container-lg-12 .container h1 {
+      width: 100%;
+    }
+    .heroContainer .container-lg-12 .container h2 {
+      width: 100%;
+      font-size: 18px;
+    }
+    .heroContainer .container-lg-12 .container .primary-button {
+      width: 175px;
+      height: 40px;
+    }
+    .heroContainer .container-lg-12 .container .primary-button a {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .heroContainer .container-lg-12 {
+      height: 70vh;
+      border-bottom-right-radius: 250px;
+    }
+    .heroContainer .container-lg-12 .container {
+      width: 90%;
+    }
+    .heroContainer .container-lg-12 .container h1 {
+      font-size: 37px;
+    }
+    .heroContainer .container-lg-12 .container h2 {
+      width: 100%;
+      line-height: 24px;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .heroContainer .container-lg-12 {
+      height: 75vh;
+    }
+    .heroContainer .container-lg-12 .container h1 {
+      font-size: 34px;
+    }
+    .heroContainer .container-lg-12 .container h2 {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 280px) {
+    .heroContainer .container-lg-12 {
+      height: 80vh;
+    }
+    .heroContainer .container-lg-12 .container h1 {
+      font-size: 24px;
+    }
+    .heroContainer .container-lg-12 .container h2 {
+      font-size: 14px;
+      line-height: normal;
+    }
+    .heroContainer .container-lg-12 .container .primary-button {
+      width: 150px;
+      height: 25px;
+    }
+  }

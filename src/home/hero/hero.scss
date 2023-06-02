@@ -3,48 +3,61 @@
 
 .heroContainer {
     width: 100%;
-    height: 82vh;
+    height: auto;
     font-family: var(--font-primary);
-    display: flex;
 
     .container-lg-12 {
         width: 100%;
-        height: 90vh;
-        margin-top: -15vh;
+        height: 75vh;
         background-color: #FFDADA;
         border-bottom-right-radius: 450px;
+        margin-bottom: 75px;
         display: flex;
         align-items: center;
+    
 
         .container {
             width: 100%;
-            height: auto;
-            margin: auto; margin-top: 200px;
+            height: 90%;
+            margin: auto;
             padding: 25px;
 
             h1 {
-                font-size: 75px;
+                font-size: 7vh;
                 font-weight: 900;
                 width: 80%;
             }
 
             h2 {
-                font-size: 27px;
+                font-size: 2.7vh;
                 width: 80%;
+                margin-top: 25px;
                 font-weight: 300;
-                line-height: 37px;
+                line-height: normal;
             }
 
             .primary-button {
                 width: 250px;
                 height: 50px;
-                background-color: black;
-                border: 1px solid transparent;
-                margin-top: 25px;
+                background-color: transparent;
+                border: 2px solid black;
+                border-radius: 15px;
+                margin-top: 50px;
 
                 a {
                     text-decoration: none;
-                    color: whitesmoke;
+                    color: black;
+                }
+            }
+
+
+            .primary-button:hover {
+                background-color: black;
+                border: 2px solid black;
+                transition: .4s ease;
+
+                a {
+                    color: rgb(255, 255, 255);
                 }
             }
         }
