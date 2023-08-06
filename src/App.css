@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-  background-color: rgb(230, 230, 227);
-  /* background-image: linear-gradient(to right top, #b8bdc2, #bfcacd, #c8d7d5, #d6e3da, #eaeedf);
-  background-image: linear-gradient(to right top, #caced1, #d3d8db, #dce1e5, #e6ebef, #eff5f9);
-  background-image: linear-gradient(to right top, #caced1, #d5d8da, #e1e2e4, #ececed, #f6f6f6); */
-  
-  height: 1200vh;
+
 }
 
 .App-logo {
@@ -28,21 +23,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-  background-color: yellow;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 

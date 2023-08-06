@@ -21,21 +21,6 @@ function App() {
       case '/sobre':
         title = 'Sobre a Pesquisa';
         break;
-      // case '/gravacoes':
-      //   title = 'Gravações';
-      //   break;
-      // case '/noticias':
-      //   title = 'Noticias';
-      //   break;
-      // case '/saudecoletiva':
-      //   title = 'Saúde Coletiva';
-      //   break;
-      // case '/contatos':
-      //   title = 'Contatos';
-      //   break;
-      // case '/destaques':
-      //   title = 'Destaques';
-      //   break;
       
       default:
         title = 'Guia Virtual de Atendimento';

@@ -1,11 +1,11 @@
 
 
 @media (max-width: 1440px) {
-    .frameInicial {
+    .frame {
         height: auto;
     }
 
-    .frameInicial .containerIframeInicial {
+    .frame .containerFrame {
         width: 90%;
         height: 90vh;
         margin-left: 5%;
@@ -14,7 +14,7 @@
         align-items: center;
     }
 
-    .frameInicial .containerIframeInicial .text {
+    .frame .containerFrame .text {
         margin: auto;
         width: 100%;
         height: 35%;
@@ -22,19 +22,19 @@
         order: 2;
     }
 
-    .frameInicial .containerIframeInicial .text h3{
+    .frame .containerFrame .text h3{
         width: 90%;
         font-size: 14px;
         line-height: normal;
     }
 
-    .frameInicial .containerIframeInicial .iframe {
+    .frame .containerFrame .iframe {
         width: 100%;
         height: 60%;
         margin-top: 2vh;
     }
 
-    .frameInicial .containerIframeInicial .iframe iframe {
+    .frame .containerFrame .iframe iframe {
         width: 100%;
         margin: auto;
         height: 100%;
@@ -43,22 +43,26 @@
 
 @media (max-width: 768px) {
 
-    .frameInicial .containerIframeInicial .text h2{
+    .frame .containerFrame .text h2{
         font-size: 27px;
     }
-    .frameInicial .containerIframeInicial .text h3{
+    .frame .containerFrame .text h3{
         width: 90%;
         font-size: 14px;
+        margin-top: 1vh;
         line-height: normal;
     }
 }
 
 @media (max-width: 550px) {
 
-    .frameInicial .containerIframeInicial {
+    .frame .containerFrame {
         height: auto;
     }
-    .frameInicial .containerIframeInicial .iframe iframe{
+    .frame .containerFrame .iframe iframe{
         height: 40vh;
+    }
+    .frame .containerFrame .text {
+        border-right: 1px solid black;
     }
 }

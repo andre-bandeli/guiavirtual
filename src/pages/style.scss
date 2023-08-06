@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.heroContainer {
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    .container-lg-12 {
+        width: 100%;
+        height: 95vh;
+        background-color: #FFDADA;
+        display: flex;
+        align-items: center;
+        background-image: url(./bgg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow: hidden;
+    
+
+        .container {
+            height: 90%;
+            margin: auto;
+            padding: 25px;
+            margin-top: 20%; margin-left: 245px;
+            position: absolute;
+
+            h1 {
+                font-size: 70px;
+                font-weight: 700;
+                width: 80%;
+            }
+
+            h2 {
+                font-size: 27px;
+                width: 70%;
+                margin-top: 25px;
+                font-weight: normal;
+                line-height: normal;
+                color: white;
+            }
+
+            .primary-button {
+                width: 250px;
+                height: 50px;
+                background-color: transparent;
+                border: 2px solid black;
+
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+
+            .primary-button:hover {
+                background-color: black;
+                border: 2px solid black;
+                transition: .4s ease;
+
+                a {
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}
+
+.text {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+
+    .container {
+        width: 60%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 125px; margin-bottom: 125px;
+
+        h2 {
+            text-align: left;
+            font-size: 37px;
+            line-height: normal;
+        }
+        p {
+            font-size: 20px;
+            width: 100%;
+            margin: auto;
+            font-weight: 300;                
+            line-height: 30px;
+            margin-top: 25px;
+        }
+
+        .btn {
+            width: 100%;
+            height: auto;
+            display: flex;
+            margin-top: 50px;
+
+            .secundary-button {
+                width: 350px;
+                height: 50px;
+                margin: auto;
+                background-color: #24F5AA;
+                border: 1px solid #24F5AA;
+                border-radius: 5px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
+import Navbar from '../components/Navbar/Navbar'
 import './sobre_components/sobre.scss'
 import './sobre_components/responsive.css'
-import Footer from '../components/footer/Footer'
+import Footer from '../components/Footer/Footer'
 import { Link } from "react-router-dom";
 import site from '../assets/icons/site.webp'
 import news from '../assets/icons/news.webp'
